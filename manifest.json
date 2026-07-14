@@ -1,129 +1,16 @@
 {
-  "generated_at": "2026-07-14T20:09:13+05:30",
+  "generated_at": "2026-07-14T20:32:26+05:30",
   "recent_file": {
-    "path": "vault/.git/info/exclude",
-    "name": "exclude",
-    "modified": "2026-07-14T19:48:33+05:30"
+    "path": "sem_3/dsa/dsa_Lec1.pdf",
+    "name": "dsa_Lec1.pdf",
+    "modified": "2026-07-13T19:20:26+05:30"
   },
   "tree": {
-    ".git": {
-      "hooks": [
-        {
-          "name": "applypatch-msg.sample",
-          "path": "vault/.git/hooks/applypatch-msg.sample",
-          "size": 478,
-          "size_human": "478B",
-          "modified": "2026-07-14T19:48:33+05:30"
-        },
-        {
-          "name": "commit-msg.sample",
-          "path": "vault/.git/hooks/commit-msg.sample",
-          "size": 1972,
-          "size_human": "1.9K",
-          "modified": "2026-07-14T19:48:33+05:30"
-        },
-        {
-          "name": "fsmonitor-watchman.sample",
-          "path": "vault/.git/hooks/fsmonitor-watchman.sample",
-          "size": 4611,
-          "size_human": "4.5K",
-          "modified": "2026-07-14T19:48:33+05:30"
-        },
-        {
-          "name": "post-update.sample",
-          "path": "vault/.git/hooks/post-update.sample",
-          "size": 189,
-          "size_human": "189B",
-          "modified": "2026-07-14T19:48:33+05:30"
-        },
-        {
-          "name": "pre-applypatch.sample",
-          "path": "vault/.git/hooks/pre-applypatch.sample",
-          "size": 424,
-          "size_human": "424B",
-          "modified": "2026-07-14T19:48:33+05:30"
-        },
-        {
-          "name": "pre-commit.sample",
-          "path": "vault/.git/hooks/pre-commit.sample",
-          "size": 1649,
-          "size_human": "1.6K",
-          "modified": "2026-07-14T19:48:33+05:30"
-        },
-        {
-          "name": "pre-merge-commit.sample",
-          "path": "vault/.git/hooks/pre-merge-commit.sample",
-          "size": 416,
-          "size_human": "416B",
-          "modified": "2026-07-14T19:48:33+05:30"
-        },
-        {
-          "name": "pre-push.sample",
-          "path": "vault/.git/hooks/pre-push.sample",
-          "size": 1374,
-          "size_human": "1.3K",
-          "modified": "2026-07-14T19:48:33+05:30"
-        },
-        {
-          "name": "pre-rebase.sample",
-          "path": "vault/.git/hooks/pre-rebase.sample",
-          "size": 4898,
-          "size_human": "4.8K",
-          "modified": "2026-07-14T19:48:33+05:30"
-        },
-        {
-          "name": "pre-receive.sample",
-          "path": "vault/.git/hooks/pre-receive.sample",
-          "size": 544,
-          "size_human": "544B",
-          "modified": "2026-07-14T19:48:33+05:30"
-        },
-        {
-          "name": "prepare-commit-msg.sample",
-          "path": "vault/.git/hooks/prepare-commit-msg.sample",
-          "size": 1492,
-          "size_human": "1.5K",
-          "modified": "2026-07-14T19:48:33+05:30"
-        },
-        {
-          "name": "push-to-checkout.sample",
-          "path": "vault/.git/hooks/push-to-checkout.sample",
-          "size": 2783,
-          "size_human": "2.7K",
-          "modified": "2026-07-14T19:48:33+05:30"
-        },
-        {
-          "name": "sendemail-validate.sample",
-          "path": "vault/.git/hooks/sendemail-validate.sample",
-          "size": 2308,
-          "size_human": "2.3K",
-          "modified": "2026-07-14T19:48:33+05:30"
-        },
-        {
-          "name": "update.sample",
-          "path": "vault/.git/hooks/update.sample",
-          "size": 3650,
-          "size_human": "3.6K",
-          "modified": "2026-07-14T19:48:33+05:30"
-        }
-      ],
-      "info": [
-        {
-          "name": "exclude",
-          "path": "vault/.git/info/exclude",
-          "size": 240,
-          "size_human": "240B",
-          "modified": "2026-07-14T19:48:33+05:30"
-        }
-      ],
-      "objects": [],
-      "refs": []
-    },
     "sem_3": {
       "dsa": [
         {
           "name": "dsa_Lec1.pdf",
-          "path": "vault/sem_3/dsa/dsa_Lec1.pdf",
+          "path": "sem_3/dsa/dsa_Lec1.pdf",
           "size": 719315,
           "size_human": "702.5K",
           "modified": "2026-07-13T19:20:26+05:30"
