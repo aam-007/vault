@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vault</title>
+<style>
+  :root{
+    --fg:#1a1a1a;
+    --muted:#6b6b6b;
+    --line:#d9d9d9;
+    --bg:#ffffff;
+    --link:#0645ad;
+    --link-visited:#551a8b;
+  }
+  *{box-sizing:border-box;}
+  html,body{
+    margin:0;
+    padding:0;
+    background:var(--bg);
+    color:var(--fg);
+    font-family:ui-monospace,SFMono-Regular,"SF Mono",Consolas,"Liberation Mono",Menlo,monospace;
+    font-size:14px;
+    line-height:1.5;
+  }
+  a{color:var(--link);text-decoration:none;}
+  a:visited{color:var(--link-visited);}
+  a:hover{text-decoration:underline;}
+
+  .wrap{
+    max-width:860px;
+    margin:0 auto;
+    padding:0 16px 64px;
+  }
+
+  header{
+    padding:28px 0 14px;
+    border-bottom:1px solid var(--line);
+  }
+  header h1{
+    margin:0;
+    font-size:20px;
+    font-weight:700;
+    letter-spacing:0.5px;
+  }
+  header p{
+    margin:6px 0 0;
+    color:var(--muted);
+    font-size:12.5px;
+  }
+
+  .ribbon{
+    margin-top:16px;
+    padding:8px 12px;
+    border:1px solid var(--line);
+    background:#f7f7f7;
+    color:var(--muted);
+    font-size:12.5px;
+    white-space:pre-wrap;
+    word-break:break-word;
+  }
+  .ribbon b{color:var(--fg);font-weight:600;}
+  .ribbon .sep{margin:0 8px;color:var(--line);}
+
+  section.sem{
+    margin-top:26px;
+  }
+  section.sem > summary{
+    cursor:pointer;
+    list-style:none;
+    font-size:15px;
+    font-weight:700;
+    padding:6px 0;
+    border-bottom:1px solid var(--line);
+  }
+  section.sem > summary::-webkit-details-marker{display:none;}
+  section.sem > summary::before{
+    content:"▸ ";
+    color:var(--muted);
+  }
+  section.sem[open] > summary::before{
+    content:"▾ ";
+  }
+
+  details.subject{
+    margin:2px 0 2px 18px;
+    border-left:1px dotted var(--line);
+    padding-left:14px;
+  }
+  details.subject > summary{
+    cursor:pointer;
+    list-style:none;
+    padding:6px 0;
+    color:var(--fg);
+    font-weight:600;
+  }
+  details.subject > summary::-webkit-details-marker{display:none;}
+  details.subject > summary::before{
+    content:"+ ";
+    color:var(--muted);
+  }
+  details.subject[open] > summary::before{
+    content:"− ";
+  }
+
+  ul.files{
+    list-style:none;
+    margin:0 0 8px;
+    padding:0 0 0 18px;
+  }
+  ul.files li{
+    display:flex;
+    justify-content:space-between;
+    gap:12px;
+    padding:3px 0;
+    border-bottom:1px dashed #eee;
+    flex-wrap:wrap;
+  }
+  ul.files li .meta{
+    color:var(--muted);
+    font-size:12px;
+    white-space:nowrap;
+  }
+  .empty{
+    color:var(--muted);
+    font-size:12.5px;
+    padding:4px 0 8px 18px;
+  }
+
+  footer{
+    margin-top:40px;
+    padding-top:12px;
+    border-top:1px solid var(--line);
+    color:var(--muted);
+    font-size:11.5px;
+  }
+
+  .error{
+    margin-top:20px;
+    padding:10px 12px;
+    border:1px solid var(--line);
+    color:var(--muted);
+  }
+
+  @media (max-width:480px){
+    body{font-size:13px;}
+    header h1{font-size:18px;}
+    ul.files li{flex-direction:column;gap:2px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>vault</h1>
+    <p>notes index — generated from manifest, no manual listing</p>
+  </header>
+
+  <div class="ribbon" id="ribbon">loading manifest…</div>
+
+  <div id="tree"></div>
+
+  <footer id="footer"></footer>
+</div>
+
+<script>
+async function main(){
+  const treeEl = document.getElementById('tree');
+  const ribbonEl = document.getElementById('ribbon');
+  const footerEl = document.getElementById('footer');
+
+  let data;
+  try{
+    const res = await fetch('vault/manifest.json', {cache:'no-store'});
+    if(!res.ok) throw new Error('manifest not found (' + res.status + ')');
+    data = await res.json();
+  }catch(err){
+    ribbonEl.remove();
+    treeEl.innerHTML = '<div class="error">manifest.json not found or unreadable. run runner.py and commit vault/manifest.json.</div>';
+    return;
+  }
+
+  // ribbon
+  const recent = data.recent_file;
+  const generated = data.generated_at ? fmtDate(data.generated_at) : '—';
+  let ribbonHTML = '<b>last updated:</b> ' + generated;
+  if(recent){
+    ribbonHTML += '<span class="sep">|</span><b>recent upload:</b> ' + recent.path;
+  }
+  ribbonEl.innerHTML = ribbonHTML;
+
+  // tree
+  const semesters = Object.keys(data.tree || {}).sort();
+  if(semesters.length === 0){
+    treeEl.innerHTML = '<div class="error">no semesters found in manifest.</div>';
+  }
+
+  for(const sem of semesters){
+    const semEl = document.createElement('details');
+    semEl.className = 'sem';
+    semEl.open = true;
+    const semSummary = document.createElement('summary');
+    semSummary.textContent = sem;
+    semEl.appendChild(semSummary);
+
+    const subjects = Object.keys(data.tree[sem]).sort();
+    for(const subj of subjects){
+      const subjEl = document.createElement('details');
+      subjEl.className = 'subject';
+      const subjSummary = document.createElement('summary');
+      const files = data.tree[sem][subj];
+      subjSummary.textContent = subj + '  (' + files.length + ')';
+      subjEl.appendChild(subjSummary);
+
+      if(files.length === 0){
+        const empty = document.createElement('div');
+        empty.className = 'empty';
+        empty.textContent = 'empty';
+        subjEl.appendChild(empty);
+      }else{
+        const ul = document.createElement('ul');
+        ul.className = 'files';
+        for(const f of files){
+          const li = document.createElement('li');
+          const a = document.createElement('a');
+          a.href = f.path;
+          a.textContent = f.name;
+          const meta = document.createElement('span');
+          meta.className = 'meta';
+          meta.textContent = (f.size_human || '') + '  ' + shortDate(f.modified);
+          li.appendChild(a);
+          li.appendChild(meta);
+          ul.appendChild(li);
+        }
+        subjEl.appendChild(ul);
+      }
+      semEl.appendChild(subjEl);
+    }
+    treeEl.appendChild(semEl);
+  }
+
+  const totalFiles = semesters.reduce((n, sem) =>
+    n + Object.values(data.tree[sem]).reduce((m, arr) => m + arr.length, 0), 0);
+  footerEl.textContent = totalFiles + ' file(s) — ' + semesters.length + ' semester(s) — served as static files, no backend';
+}
+
+function fmtDate(iso){
+  try{
+    const d = new Date(iso);
+    return d.toISOString().slice(0,16).replace('T',' ') + ' UTC';
+  }catch(e){ return iso; }
+}
+function shortDate(iso){
+  try{
+    return new Date(iso).toISOString().slice(0,10);
+  }catch(e){ return ''; }
+}
+
+main();
+</script>
+</body>
+</html>
