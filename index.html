@@ -244,17 +244,40 @@ async function main(){
   footerEl.textContent = totalFiles + ' file(s) — ' + semesters.length + ' semester(s) — for support: aditya.mishra10@nmims.in';
 }
 
-function fmtDate(iso){
-  try{
+function fmtDate(iso) {
+  try {
     const d = new Date(iso);
-    return d.toISOString().slice(0,16).replace('T',' ') + ' UTC';
-  }catch(e){ return iso; }
+
+    return new Intl.DateTimeFormat("en-IN", {
+      timeZone: "Asia/Kolkata",
+      year: "numeric",
+      month: "short",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: false,
+    }).format(d) + " IST";
+  } catch (e) {
+    return iso;
+  }
 }
-function shortDate(iso){
-  try{
-    return new Date(iso).toISOString().slice(0,10);
-  }catch(e){ return ''; }
+
+function shortDate(iso) {
+  try {
+    const d = new Date(iso);
+
+    return new Intl.DateTimeFormat("en-IN", {
+      timeZone: "Asia/Kolkata",
+      year: "numeric",
+      month: "short",
+      day: "2-digit",
+    }).format(d);
+  } catch (e) {
+    return "";
+  }
 }
+
+main();
 
 main();
 </script>
