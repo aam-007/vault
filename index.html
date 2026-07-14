@@ -172,7 +172,7 @@ async function main(){
 
   let data;
   try{
-    const res = await fetch('vault/manifest.json', {cache:'no-store'});
+    const res = await fetch('manifest.json', {cache:'no-store'});
     if(!res.ok) throw new Error('manifest not found (' + res.status + ')');
     data = await res.json();
   }catch(err){
@@ -242,7 +242,7 @@ async function main(){
 
   const totalFiles = semesters.reduce((n, sem) =>
     n + Object.values(data.tree[sem]).reduce((m, arr) => m + arr.length, 0), 0);
-  footerEl.textContent = totalFiles + ' file(s) — ' + semesters.length + ' semester(s) — served as static files, no backend';
+  footerEl.textContent = totalFiles + ' file(s) — ' + semesters.length + ' semester(s) — for support: aditya.mishra10@nmims.in';
 }
 
 function fmtDate(iso){
