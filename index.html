@@ -10,11 +10,48 @@
     --muted:#6b6b6b;
     --line:#d9d9d9;
     --bg:#ffffff;
+    --bg-alt:#f7f7f7;
     --link:#0645ad;
     --link-visited:#551a8b;
+    --dash:#eee;
   }
+
+  :root[data-theme="dark"]{
+    --fg:#e6e6e6;
+    --muted:#8c8c8c;
+    --line:#333333;
+    --bg:#121212;
+    --bg-alt:#1a1a1a;
+    --link:#7aa2f7;
+    --link-visited:#b48ead;
+    --dash:#242424;
+  }
+
+  :root[data-theme="grey"]{
+    --fg:#e8e8e8;
+    --muted:#9a9a9a;
+    --line:#4a4a4a;
+    --bg:#3a3a3c;
+    --bg-alt:#444446;
+    --link:#9fc5ff;
+    --link-visited:#c9a6e0;
+    --dash:#4f4f51;
+  }
+
+  :root[data-theme="comfort"]{
+    --fg:#3a2f26;
+    --muted:#8a7a68;
+    --line:#e0d3bd;
+    --bg:#f5ecd9;
+    --bg-alt:#efe3c9;
+    --link:#a15c2f;
+    --link-visited:#7d5aa6;
+    --dash:#e6d8bf;
+  }
+
   *{box-sizing:border-box;}
-  html,body{
+  html{scroll-behavior:smooth;}
+  body{
     margin:0;
     padding:0;
     background:var(--bg);
@@ -22,8 +59,9 @@
     font-family:ui-monospace,SFMono-Regular,"SF Mono",Consolas,"Liberation Mono",Menlo,monospace;
     font-size:14px;
     line-height:1.5;
+    transition:background-color .35s ease, color .35s ease;
   }
-  a{color:var(--link);text-decoration:none;}
+  a{color:var(--link);text-decoration:none;transition:color .35s ease;}
   a:visited{color:var(--link-visited);}
   a:hover{text-decoration:underline;}
 
@@ -36,6 +74,16 @@
   header{
     padding:28px 0 14px;
     border-bottom:1px solid var(--line);
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    gap:16px;
+    flex-wrap:wrap;
+    transition:border-color .35s ease;
+    animation:fadeDown .5s ease both;
+  }
+  header .title{
+    min-width:0;
   }
   header h1{
     margin:0;
@@ -47,23 +95,62 @@
     margin:6px 0 0;
     color:var(--muted);
     font-size:12.5px;
+    transition:color .35s ease;
+  }
+
+  /* theme toggle */
+  .theme-toggle{
+    display:inline-flex;
+    border:1px solid var(--line);
+    border-radius:4px;
+    overflow:hidden;
+    flex-shrink:0;
+    transition:border-color .35s ease;
+  }
+  .theme-toggle button{
+    appearance:none;
+    border:none;
+    background:var(--bg-alt);
+    color:var(--muted);
+    font-family:inherit;
+    font-size:11.5px;
+    letter-spacing:0.3px;
+    padding:7px 10px;
+    cursor:pointer;
+    border-right:1px solid var(--line);
+    transition:background-color .25s ease, color .25s ease, border-color .35s ease;
+  }
+  .theme-toggle button:last-child{border-right:none;}
+  .theme-toggle button:hover{
+    color:var(--fg);
+  }
+  .theme-toggle button[aria-pressed="true"]{
+    background:var(--fg);
+    color:var(--bg);
+  }
+  .theme-toggle button:focus-visible{
+    outline:2px solid var(--link);
+    outline-offset:-2px;
   }
 
   .ribbon{
     margin-top:16px;
     padding:8px 12px;
     border:1px solid var(--line);
-    background:#f7f7f7;
+    background:var(--bg-alt);
     color:var(--muted);
     font-size:12.5px;
     white-space:pre-wrap;
     word-break:break-word;
+    transition:background-color .35s ease, border-color .35s ease, color .35s ease;
+    animation:fadeUp .5s ease .05s both;
   }
-  .ribbon b{color:var(--fg);font-weight:600;}
+  .ribbon b{color:var(--fg);font-weight:600;transition:color .35s ease;}
   .ribbon .sep{margin:0 8px;color:var(--line);}
 
   section.sem{
     margin-top:26px;
+    animation:fadeUp .45s ease both;
   }
   section.sem > summary{
     cursor:pointer;
@@ -72,11 +159,14 @@
     font-weight:700;
     padding:6px 0;
     border-bottom:1px solid var(--line);
+    transition:border-color .35s ease;
   }
   section.sem > summary::-webkit-details-marker{display:none;}
   section.sem > summary::before{
     content:"▸ ";
     color:var(--muted);
+    display:inline-block;
+    transition:transform .2s ease, color .35s ease;
   }
   section.sem[open] > summary::before{
     content:"▾ ";
@@ -86,6 +176,7 @@
     margin:2px 0 2px 18px;
     border-left:1px dotted var(--line);
     padding-left:14px;
+    transition:border-color .35s ease;
   }
   details.subject > summary{
     cursor:pointer;
@@ -93,6 +184,7 @@
     padding:6px 0;
     color:var(--fg);
     font-weight:600;
+    transition:color .35s ease;
   }
   details.subject > summary::-webkit-details-marker{display:none;}
   details.subject > summary::before{
@@ -101,6 +193,9 @@
   }
   details.subject[open] > summary::before{
     content:"− ";
+  }
+  details.subject[open] > ul.files{
+    animation:unfold .25s ease both;
   }
 
   ul.files{
@@ -113,18 +208,24 @@
     justify-content:space-between;
     gap:12px;
     padding:3px 0;
-    border-bottom:1px dashed #eee;
+    border-bottom:1px dashed var(--dash);
     flex-wrap:wrap;
+    transition:border-color .35s ease, background-color .2s ease;
+  }
+  ul.files li:hover{
+    background:var(--bg-alt);
   }
   ul.files li .meta{
     color:var(--muted);
     font-size:12px;
     white-space:nowrap;
+    transition:color .35s ease;
   }
   .empty{
     color:var(--muted);
     font-size:12.5px;
     padding:4px 0 8px 18px;
+    transition:color .35s ease;
   }
 
   footer{
@@ -133,6 +234,7 @@
     border-top:1px solid var(--line);
     color:var(--muted);
     font-size:11.5px;
+    transition:border-color .35s ease, color .35s ease;
   }
 
   .error{
@@ -140,6 +242,26 @@
     padding:10px 12px;
     border:1px solid var(--line);
     color:var(--muted);
+  }
+
+  @keyframes fadeDown{
+    from{opacity:0; transform:translateY(-6px);}
+    to{opacity:1; transform:translateY(0);}
+  }
+  @keyframes fadeUp{
+    from{opacity:0; transform:translateY(8px);}
+    to{opacity:1; transform:translateY(0);}
+  }
+  @keyframes unfold{
+    from{opacity:0; transform:translateY(-4px);}
+    to{opacity:1; transform:translateY(0);}
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    *, *::before, *::after{
+      animation-duration:0.001s !important;
+      transition-duration:0.001s !important;
+    }
   }
 
   @media (max-width:480px){
@@ -153,7 +275,15 @@
 <div class="wrap">
 
   <header>
-    <h1>vault</h1>
+    <div class="title">
+      <h1>vault</h1>
+    </div>
+    <div class="theme-toggle" role="group" aria-label="Theme">
+      <button type="button" data-theme-btn="light" aria-pressed="true">light</button>
+      <button type="button" data-theme-btn="dark" aria-pressed="false">dark</button>
+      <button type="button" data-theme-btn="grey" aria-pressed="false">grey</button>
+      <button type="button" data-theme-btn="comfort" aria-pressed="false">comfort</button>
+    </div>
   </header>
 
   <div class="ribbon" id="ribbon">loading manifest…</div>
@@ -164,6 +294,35 @@
 </div>
 
 <script>
+(function initTheme(){
+  const THEMES = ["light", "dark", "grey", "comfort"];
+  const root = document.documentElement;
+  let saved = "light";
+  try{
+    saved = localStorage.getItem("vault-theme") || "light";
+  }catch(e){}
+  if(!THEMES.includes(saved)) saved = "light";
+  applyTheme(saved);
+
+  function applyTheme(theme){
+    if(theme === "light"){
+      root.removeAttribute("data-theme");
+    }else{
+      root.setAttribute("data-theme", theme);
+    }
+    document.querySelectorAll("[data-theme-btn]").forEach(btn => {
+      btn.setAttribute("aria-pressed", btn.dataset.themeBtn === theme ? "true" : "false");
+    });
+    try{ localStorage.setItem("vault-theme", theme); }catch(e){}
+  }
+
+  document.addEventListener("click", function(e){
+    const btn = e.target.closest("[data-theme-btn]");
+    if(!btn) return;
+    applyTheme(btn.dataset.themeBtn);
+  });
+})();
+
 async function main(){
   const treeEl = document.getElementById('tree');
   const ribbonEl = document.getElementById('ribbon');
@@ -195,10 +354,13 @@ async function main(){
     treeEl.innerHTML = '<div class="error">no semesters found in manifest.</div>';
   }
 
+  let semIndex = 0;
   for(const sem of semesters){
     const semEl = document.createElement('details');
     semEl.className = 'sem';
     semEl.open = true;
+    semEl.style.animationDelay = (0.08 + semIndex * 0.05) + 's';
+    semIndex++;
     const semSummary = document.createElement('summary');
     semSummary.textContent = sem;
     semEl.appendChild(semSummary);
