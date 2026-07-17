@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-16T21:57:46+05:30",
+  "generated_at": "2026-07-17T19:34:16+05:30",
   "recent_file": {
-    "path": "sem_3/dsa/dsa_Lec3.pdf",
-    "name": "dsa_Lec3.pdf",
-    "modified": "2026-07-16T21:57:06+05:30"
+    "path": "sem_3/mae/MAE_Lec1.pdf",
+    "name": "MAE_Lec1.pdf",
+    "modified": "2026-07-17T19:33:01+05:30"
   },
   "tree": {
     "sem_3": {
@@ -37,6 +37,15 @@
           "size": 1882931,
           "size_human": "1.8M",
           "modified": "2026-07-14T20:41:03+05:30"
+        }
+      ],
+      "mae": [
+        {
+          "name": "MAE_Lec1.pdf",
+          "path": "sem_3/mae/MAE_Lec1.pdf",
+          "size": 120214,
+          "size_human": "117.4K",
+          "modified": "2026-07-17T19:33:01+05:30"
         }
       ]
     }
