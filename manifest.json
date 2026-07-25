@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-25T14:01:58+05:30",
+  "generated_at": "2026-07-25T14:57:28+05:30",
   "recent_file": {
-    "path": "sem_3/mae/MAE_Lec2.pdf",
-    "name": "MAE_Lec2.pdf",
-    "modified": "2026-07-25T14:01:54+05:30"
+    "path": "sem_3/mu/Lecs 1 to 3.pdf",
+    "name": "Lecs 1 to 3.pdf",
+    "modified": "2026-07-25T14:54:22+05:30"
   },
   "tree": {
     "sem_3": {
@@ -80,9 +80,9 @@
         {
           "name": "Lecs 1 to 3.pdf",
           "path": "sem_3/mu/Lecs 1 to 3.pdf",
-          "size": 255098,
-          "size_human": "249.1K",
-          "modified": "2026-07-25T13:58:12+05:30"
+          "size": 255744,
+          "size_human": "249.8K",
+          "modified": "2026-07-25T14:54:22+05:30"
         }
       ]
     }
