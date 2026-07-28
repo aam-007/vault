@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-28T19:06:08+05:30",
+  "generated_at": "2026-07-28T19:30:46+05:30",
   "recent_file": {
-    "path": "sem_3/dsa/dsa_Lec8.pdf",
-    "name": "dsa_Lec8.pdf",
-    "modified": "2026-07-28T19:04:55+05:30"
+    "path": "sem_3/idsa/idsa_Lec4.pdf",
+    "name": "idsa_Lec4.pdf",
+    "modified": "2026-07-28T19:30:03+05:30"
   },
   "tree": {
     "sem_3": {
@@ -67,11 +67,18 @@
           "modified": "2026-07-14T20:41:03+05:30"
         },
         {
-          "name": "idsa_Lec2.pdf",
-          "path": "sem_3/idsa/idsa_Lec2.pdf",
+          "name": "idsa_Lec2_Lec3.pdf",
+          "path": "sem_3/idsa/idsa_Lec2_Lec3.pdf",
           "size": 9856575,
           "size_human": "9.4M",
           "modified": "2026-07-20T22:20:07+05:30"
+        },
+        {
+          "name": "idsa_Lec4.pdf",
+          "path": "sem_3/idsa/idsa_Lec4.pdf",
+          "size": 202345,
+          "size_human": "197.6K",
+          "modified": "2026-07-28T19:30:03+05:30"
         }
       ],
       "mae": [
