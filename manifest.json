@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-03T20:21:32+05:30",
+  "generated_at": "2026-08-04T20:42:54+05:30",
   "recent_file": {
-    "path": "sem_3/dsa/dsa_Lec10.pdf",
-    "name": "dsa_Lec10.pdf",
-    "modified": "2026-08-03T20:20:48+05:30"
+    "path": "sem_3/dsa/dsa_Lec11.pdf",
+    "name": "dsa_Lec11.pdf",
+    "modified": "2026-08-04T20:42:41+05:30"
   },
   "tree": {
     "sem_3": {
@@ -63,6 +63,13 @@
           "size": 412349,
           "size_human": "402.7K",
           "modified": "2026-08-03T20:20:48+05:30"
+        },
+        {
+          "name": "dsa_Lec11.pdf",
+          "path": "sem_3/dsa/dsa_Lec11.pdf",
+          "size": 395073,
+          "size_human": "385.8K",
+          "modified": "2026-08-04T20:42:41+05:30"
         }
       ],
       "mae": [
