@@ -14,6 +14,8 @@
     --link:#0645ad;
     --link-visited:#551a8b;
     --dash:#eee;
+    --mark-bg:#fff3a0;
+    --mark-fg:#1a1a1a;
     --font-body:ui-monospace,SFMono-Regular,"SF Mono",Consolas,"Liberation Mono",Menlo,monospace;
     --font-head:inherit;
   }
@@ -27,6 +29,8 @@
     --link:#7aa2f7;
     --link-visited:#b48ead;
     --dash:#242424;
+    --mark-bg:#5a4a00;
+    --mark-fg:#f5e6a0;
   }
 
   :root[data-theme="grey"]{
@@ -38,6 +42,8 @@
     --link:#9fc5ff;
     --link-visited:#c9a6e0;
     --dash:#4f4f51;
+    --mark-bg:#6b5a00;
+    --mark-fg:#f5e6a0;
   }
 
   :root[data-theme="comfort"]{
@@ -49,6 +55,8 @@
     --link:#a15c2f;
     --link-visited:#7d5aa6;
     --dash:#e6d8bf;
+    --mark-bg:#e8c874;
+    --mark-fg:#3a2f26;
   }
 
   :root[data-theme="retro"]{
@@ -60,6 +68,8 @@
     --link:#0000ee;
     --link-visited:#551a8b;
     --dash:#bdbdbd;
+    --mark-bg:#ffff00;
+    --mark-fg:#000000;
     --font-body:"Times New Roman",Times,serif;
     --font-head:"MS Sans Serif","Tahoma",Geneva,sans-serif;
     --header-blue:#000080;
@@ -85,6 +95,14 @@
   a{color:var(--link);text-decoration:none;transition:color .35s ease;}
   a:visited{color:var(--link-visited);}
   a:hover{text-decoration:underline;}
+
+  mark{
+    background:var(--mark-bg);
+    color:var(--mark-fg);
+    padding:0 1px;
+    border-radius:2px;
+    transition:background-color .35s ease, color .35s ease;
+  }
 
   .wrap{
     max-width:860px;
@@ -255,6 +273,81 @@
   :root[data-theme="retro"] .ribbon b{font-weight:bold;}
   .ribbon .sep{margin:0 8px;color:var(--line);}
   :root[data-theme="retro"] .ribbon .sep{color:#999;}
+
+  /* ===== search bar ===== */
+  .searchbar{
+    display:flex;
+    gap:8px;
+    align-items:center;
+    margin:12px 0 0;
+    flex-wrap:wrap;
+  }
+  :root[data-theme="retro"] .searchbar{margin:0 20px 0;padding:8px 0;}
+  #searchInput{
+    flex:1 1 260px;
+    min-width:0;
+    padding:7px 10px;
+    border:1px solid var(--line);
+    border-radius:4px;
+    background:var(--bg);
+    color:var(--fg);
+    font-family:inherit;
+    font-size:12.5px;
+    transition:background-color .35s ease, color .35s ease, border-color .35s ease;
+  }
+  #searchInput:focus{outline:2px solid var(--link);outline-offset:-1px;}
+  #searchInput::placeholder{color:var(--muted);}
+  :root[data-theme="retro"] #searchInput{
+    border-radius:0;
+    border:1px solid #404040;
+    border-top-color:#000;
+    border-left-color:#000;
+    font-family:"Courier New",monospace;
+  }
+  #clearSearch{
+    border:1px solid var(--line);
+    border-radius:4px;
+    background:var(--bg-alt);
+    color:var(--muted);
+    cursor:pointer;
+    padding:6px 11px;
+    font-size:14px;
+    line-height:1;
+    transition:color .2s ease, border-color .35s ease;
+  }
+  #clearSearch:hover{color:var(--fg);}
+  :root[data-theme="retro"] #clearSearch{border-radius:0;}
+  .btn-row{display:flex;gap:6px;flex-wrap:wrap;}
+  .btn-row button{
+    border:1px solid var(--line);
+    border-radius:4px;
+    background:var(--bg-alt);
+    color:var(--muted);
+    cursor:pointer;
+    padding:6px 10px;
+    font-size:11.5px;
+    font-family:inherit;
+    white-space:nowrap;
+    transition:color .2s ease, background-color .2s ease, border-color .35s ease;
+  }
+  .btn-row button:hover{color:var(--fg);background:var(--bg);}
+  :root[data-theme="retro"] .btn-row button{border-radius:0;}
+  .search-meta{
+    margin:6px 0 0;
+    color:var(--muted);
+    font-size:11.5px;
+    min-height:14px;
+    transition:color .35s ease;
+  }
+  :root[data-theme="retro"] .search-meta{margin:4px 20px 0;font-family:"Courier New",monospace;}
+  .search-meta kbd{
+    border:1px solid var(--line);
+    border-bottom-width:2px;
+    border-radius:3px;
+    padding:0 4px;
+    font-size:10.5px;
+    font-family:inherit;
+  }
 
   .content-inner{padding:0 16px;}
   :root[data-theme="retro"] .content-inner{padding:0 20px;}
@@ -555,6 +648,16 @@
 
     <div class="ribbon" id="ribbon">loading manifest…</div>
 
+    <div class="searchbar" id="searchbar" style="display:none;">
+      <input type="text" id="searchInput" placeholder="search files… e.g. ext:pdf sem:sem_3 subj:dsa size:&gt;1M after:2026-07-01 &quot;lab 1&quot;" autocomplete="off" spellcheck="false">
+      <button type="button" id="clearSearch" title="Clear search (Esc)">&times;</button>
+      <div class="btn-row">
+        <button type="button" id="expandAll">expand all</button>
+        <button type="button" id="collapseAll">collapse all</button>
+      </div>
+    </div>
+    <div class="search-meta" id="searchMeta"></div>
+
     <div class="colhead retro-only flex">
       <span class="c-name">Name</span>
       <span class="c-mod">Last modified</span>
@@ -599,6 +702,135 @@
   });
 })();
 
+// --- flattened file index (built once from manifest) --------------------
+
+let ALL_FILES = [];
+
+function parseSizeToBytes(s){
+  if(!s) return null;
+  const m = String(s).trim().match(/^([\d.]+)\s*([KMGT]?)B?$/i);
+  if(!m) return null;
+  const num = parseFloat(m[1]);
+  const unit = m[2].toUpperCase();
+  const mult = {"": 1, K: 1024, M: 1024 ** 2, G: 1024 ** 3, T: 1024 ** 4}[unit] || 1;
+  return num * mult;
+}
+
+function flattenManifest(tree){
+  const out = [];
+  for(const sem of Object.keys(tree)){
+    for(const subj of Object.keys(tree[sem])){
+      for(const f of tree[sem][subj]){
+        const folder = f.folder || "";
+        const dotIdx = f.name.lastIndexOf(".");
+        const ext = dotIdx > -1 ? f.name.slice(dotIdx + 1).toLowerCase() : "";
+        const haystack = [sem, subj, folder, f.name].filter(Boolean).join("/").toLowerCase();
+        out.push({
+          sem, subj, folder,
+          name: f.name,
+          path: f.path,
+          size_human: f.size_human,
+          modified: f.modified,
+          sizeBytes: parseSizeToBytes(f.size_human),
+          ext, haystack
+        });
+      }
+    }
+  }
+  return out;
+}
+
+// --- search query parsing ------------------------------------------------
+
+function parseQuery(query){
+  const terms = [];
+  const filters = [];
+  const tokenRe = /"([^"]+)"|\/((?:\\.|[^/])+)\/|(\S+)/g;
+  let m;
+  while((m = tokenRe.exec(query))){
+    if(m[1] !== undefined){
+      const phrase = m[1].toLowerCase();
+      if(phrase){ terms.push(phrase); filters.push(f => f.haystack.includes(phrase)); }
+    }else if(m[2] !== undefined){
+      let rx;
+      try{ rx = new RegExp(m[2], "i"); }catch(e){ continue; }
+      filters.push(f => rx.test(f.name));
+    }else if(m[3]){
+      const tok = m[3];
+      const kv = tok.match(/^(\w+):(.+)$/);
+      if(kv){
+        const key = kv[1].toLowerCase();
+        const val = kv[2];
+        if(key === "ext"){
+          const ext = val.toLowerCase().replace(/^\./, "");
+          filters.push(f => f.ext === ext);
+        }else if(key === "sem"){
+          const v = val.toLowerCase();
+          filters.push(f => f.sem.toLowerCase().includes(v));
+        }else if(key === "subj" || key === "in"){
+          const v = val.toLowerCase();
+          filters.push(f => f.subj.toLowerCase().includes(v));
+        }else if(key === "size"){
+          const opMatch = val.match(/^(>=|<=|>|<)?(.+)$/);
+          const op = opMatch[1];
+          const bytes = parseSizeToBytes(opMatch[2]);
+          if(op && bytes !== null){
+            filters.push(f => {
+              if(f.sizeBytes === null) return false;
+              if(op === ">") return f.sizeBytes > bytes;
+              if(op === "<") return f.sizeBytes < bytes;
+              if(op === ">=") return f.sizeBytes >= bytes;
+              return f.sizeBytes <= bytes;
+            });
+          }else{
+            const v = val.toLowerCase();
+            filters.push(f => (f.size_human || "").toLowerCase().includes(v));
+          }
+        }else if(key === "before" || key === "after"){
+          const d = new Date(val);
+          if(!isNaN(d)){
+            filters.push(f => {
+              const fd = new Date(f.modified);
+              if(isNaN(fd)) return false;
+              return key === "before" ? fd < d : fd > d;
+            });
+          }
+        }else{
+          const v = tok.toLowerCase();
+          terms.push(v);
+          filters.push(f => f.haystack.includes(v));
+        }
+      }else{
+        const v = tok.toLowerCase();
+        terms.push(v);
+        filters.push(f => f.haystack.includes(v));
+      }
+    }
+  }
+  return {
+    terms,
+    predicate: filters.length ? (f => filters.every(fn => fn(f))) : null
+  };
+}
+
+function highlightInto(el, text, terms){
+  if(!terms.length){ el.textContent = text; return; }
+  const esc = terms.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).filter(Boolean);
+  if(!esc.length){ el.textContent = text; return; }
+  const rx = new RegExp("(" + esc.join("|") + ")", "ig");
+  let lastIndex = 0;
+  let match;
+  while((match = rx.exec(text))){
+    if(match.index > lastIndex) el.appendChild(document.createTextNode(text.slice(lastIndex, match.index)));
+    const mark = document.createElement("mark");
+    mark.textContent = match[0];
+    el.appendChild(mark);
+    lastIndex = match.index + match[0].length;
+    if(match[0].length === 0) rx.lastIndex++;
+  }
+  if(lastIndex < text.length) el.appendChild(document.createTextNode(text.slice(lastIndex)));
+}
+
 // --- folder-tree helpers -----------------------------------------------
 
 function buildFolderTree(files){
@@ -629,7 +861,7 @@ function countFilesInNode(node){
   return n;
 }
 
-function buildFileList(files){
+function buildFileList(files, terms){
   const ul = document.createElement('ul');
   ul.className = 'files';
   for(const f of files){
@@ -641,7 +873,7 @@ function buildFileList(files){
 
     const a = document.createElement('a');
     a.href = f.path;
-    a.textContent = f.name;
+    highlightInto(a, f.name, terms);
     li.appendChild(a);
 
     const meta = document.createElement('span');
@@ -654,16 +886,16 @@ function buildFileList(files){
   return ul;
 }
 
-function renderFolderNode(node, parentEl){
+function renderFolderNode(node, parentEl, forceOpen, terms){
   if(node.files.length){
-    parentEl.appendChild(buildFileList(node.files));
+    parentEl.appendChild(buildFileList(node.files, terms));
   }
   const folderNames = Object.keys(node.folders).sort();
   for(const name of folderNames){
     const subNode = node.folders[name];
     const folderEl = document.createElement('details');
     folderEl.className = 'folder';
-    folderEl.open = true;
+    folderEl.open = forceOpen;
     const summary = document.createElement('summary');
     const icon = document.createElement('span');
     icon.className = 'icon-folder';
@@ -672,9 +904,121 @@ function renderFolderNode(node, parentEl){
     label.textContent = name + '  (' + countFilesInNode(subNode) + ')';
     summary.appendChild(label);
     folderEl.appendChild(summary);
-    renderFolderNode(subNode, folderEl);
+    renderFolderNode(subNode, folderEl, forceOpen, terms);
     parentEl.appendChild(folderEl);
   }
+}
+
+// --- tree rendering (shared by default view and search results) --------
+
+function renderTree(files, isSearching, terms){
+  const treeEl = document.getElementById('tree');
+  treeEl.innerHTML = '';
+
+  if(!files.length){
+    treeEl.innerHTML = '<div class="error">no files match your search.</div>';
+    return;
+  }
+
+  const bySem = {};
+  for(const f of files){
+    if(!bySem[f.sem]) bySem[f.sem] = {};
+    if(!bySem[f.sem][f.subj]) bySem[f.sem][f.subj] = [];
+    bySem[f.sem][f.subj].push(f);
+  }
+
+  const semesters = Object.keys(bySem).sort();
+  let semIndex = 0;
+  for(const sem of semesters){
+    const semEl = document.createElement('details');
+    semEl.className = 'sem';
+    semEl.open = isSearching;
+    semEl.style.animationDelay = (0.08 + semIndex * 0.05) + 's';
+    semIndex++;
+    const semSummary = document.createElement('summary');
+    semSummary.textContent = sem;
+    semEl.appendChild(semSummary);
+
+    const subjects = Object.keys(bySem[sem]).sort();
+    for(const subj of subjects){
+      const subjEl = document.createElement('details');
+      subjEl.className = 'subject';
+      subjEl.open = isSearching;
+      const subjSummary = document.createElement('summary');
+      const icon = document.createElement('span');
+      icon.className = 'icon-folder';
+      subjSummary.appendChild(icon);
+      const subjFiles = bySem[sem][subj];
+      const label = document.createElement('span');
+      label.textContent = subj + '  (' + subjFiles.length + ')';
+      subjSummary.appendChild(label);
+      subjEl.appendChild(subjSummary);
+
+      const rootNode = buildFolderTree(subjFiles);
+      renderFolderNode(rootNode, subjEl, isSearching, terms);
+      semEl.appendChild(subjEl);
+    }
+    treeEl.appendChild(semEl);
+  }
+}
+
+// --- search wiring --------------------------------------------------------
+
+function applyFilter(query){
+  const searchMeta = document.getElementById('searchMeta');
+  const trimmed = query.trim();
+  if(!trimmed){
+    renderTree(ALL_FILES, false, []);
+    searchMeta.textContent = '';
+    document.getElementById('clearSearch').style.visibility = 'hidden';
+    return;
+  }
+  document.getElementById('clearSearch').style.visibility = 'visible';
+  const { terms, predicate } = parseQuery(trimmed);
+  const filtered = predicate ? ALL_FILES.filter(predicate) : ALL_FILES;
+  renderTree(filtered, true, terms);
+  searchMeta.textContent = filtered.length + ' of ' + ALL_FILES.length + ' file(s) match';
+}
+
+function setupSearchUI(){
+  const bar = document.getElementById('searchbar');
+  const input = document.getElementById('searchInput');
+  const clearBtn = document.getElementById('clearSearch');
+  const expandBtn = document.getElementById('expandAll');
+  const collapseBtn = document.getElementById('collapseAll');
+  bar.style.display = 'flex';
+  clearBtn.style.visibility = 'hidden';
+
+  let debounceTimer = null;
+  input.addEventListener('input', () => {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(() => applyFilter(input.value), 120);
+  });
+
+  clearBtn.addEventListener('click', () => {
+    input.value = '';
+    applyFilter('');
+    input.focus();
+  });
+
+  expandBtn.addEventListener('click', () => {
+    document.querySelectorAll('#tree details').forEach(d => { d.open = true; });
+  });
+  collapseBtn.addEventListener('click', () => {
+    document.querySelectorAll('#tree details').forEach(d => { d.open = false; });
+  });
+
+  document.addEventListener('keydown', (e) => {
+    const tag = (document.activeElement && document.activeElement.tagName) || '';
+    if(e.key === '/' && tag !== 'INPUT' && tag !== 'TEXTAREA'){
+      e.preventDefault();
+      input.focus();
+    }else if(e.key === 'Escape' && document.activeElement === input){
+      input.value = '';
+      applyFilter('');
+      input.blur();
+    }
+  });
 }
 
 // -------------------------------------------------------------------------
@@ -703,54 +1047,20 @@ async function main(){
   }
   ribbonEl.innerHTML = ribbonHTML;
 
-  const semesters = Object.keys(data.tree || {}).sort();
-  if(semesters.length === 0){
+  ALL_FILES = flattenManifest(data.tree || {});
+
+  if(ALL_FILES.length === 0){
     treeEl.innerHTML = '<div class="error">no semesters found in manifest.</div>';
+  }else{
+    setupSearchUI();
+    renderTree(ALL_FILES, false, []);
+    document.getElementById('searchMeta').innerHTML =
+      'tip: press <kbd>/</kbd> to search — supports ext:, sem:, subj:, size:&gt;1M, before:/after:YYYY-MM-DD, "phrases", /regex/';
   }
 
-  let semIndex = 0;
-  for(const sem of semesters){
-    const semEl = document.createElement('details');
-    semEl.className = 'sem';
-    semEl.open = true;
-    semEl.style.animationDelay = (0.08 + semIndex * 0.05) + 's';
-    semIndex++;
-    const semSummary = document.createElement('summary');
-    semSummary.textContent = sem;
-    semEl.appendChild(semSummary);
-
-    const subjects = Object.keys(data.tree[sem]).sort();
-    for(const subj of subjects){
-      const subjEl = document.createElement('details');
-      subjEl.className = 'subject';
-      const subjSummary = document.createElement('summary');
-      const icon = document.createElement('span');
-      icon.className = 'icon-folder';
-      subjSummary.appendChild(icon);
-      const files = data.tree[sem][subj];
-      const label = document.createElement('span');
-      label.textContent = subj + '  (' + files.length + ')';
-      subjSummary.appendChild(label);
-      subjEl.appendChild(subjSummary);
-
-      if(files.length === 0){
-        const empty = document.createElement('div');
-        empty.className = 'empty';
-        empty.textContent = 'empty';
-        subjEl.appendChild(empty);
-      }else{
-        const rootNode = buildFolderTree(files);
-        renderFolderNode(rootNode, subjEl);
-      }
-      semEl.appendChild(subjEl);
-    }
-    treeEl.appendChild(semEl);
-  }
-
-  const totalFiles = semesters.reduce((n, sem) =>
-    n + Object.values(data.tree[sem]).reduce((m, arr) => m + arr.length, 0), 0);
   if(footcountEl){
-    footcountEl.textContent = totalFiles + ' file(s) — ' + semesters.length + ' semester(s) — for support: aditya.mishra10@nmims.in';
+    const semCount = new Set(ALL_FILES.map(f => f.sem)).size;
+    footcountEl.textContent = ALL_FILES.length + ' file(s) — ' + semCount + ' semester(s) — for support: aditya.mishra10@nmims.in';
   }
 }
 
