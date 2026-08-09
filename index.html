@@ -198,6 +198,33 @@
     animation:unfold .25s ease both;
   }
 
+  details.folder{
+    margin:2px 0 2px 18px;
+    border-left:1px dotted var(--line);
+    padding-left:14px;
+    transition:border-color .35s ease;
+  }
+  details.folder > summary{
+    cursor:pointer;
+    list-style:none;
+    padding:5px 0;
+    color:var(--muted);
+    font-weight:600;
+    font-size:13px;
+    transition:color .35s ease;
+  }
+  details.folder > summary::-webkit-details-marker{display:none;}
+  details.folder > summary::before{
+    content:"▸ ";
+    color:var(--muted);
+  }
+  details.folder[open] > summary::before{
+    content:"▾ ";
+  }
+  details.folder[open] > ul.files{
+    animation:unfold .25s ease both;
+  }
+
   ul.files{
     list-style:none;
     margin:0 0 8px;
@@ -323,6 +350,77 @@
   });
 })();
 
+// --- folder-tree helpers -----------------------------------------------
+
+// Turns a flat file array (each possibly carrying a "folder" string like
+// "Unit3/Extra") into a nested { files:[], folders:{ name: node } } tree.
+function buildFolderTree(files){
+  const root = { files: [], folders: {} };
+  for(const f of files){
+    if(!f.folder){
+      root.files.push(f);
+      continue;
+    }
+    const parts = f.folder.split('/').filter(Boolean);
+    let node = root;
+    for(const part of parts){
+      if(!node.folders[part]){
+        node.folders[part] = { files: [], folders: {} };
+      }
+      node = node.folders[part];
+    }
+    node.files.push(f);
+  }
+  return root;
+}
+
+function countFilesInNode(node){
+  let n = node.files.length;
+  for(const key of Object.keys(node.folders)){
+    n += countFilesInNode(node.folders[key]);
+  }
+  return n;
+}
+
+function buildFileList(files){
+  const ul = document.createElement('ul');
+  ul.className = 'files';
+  for(const f of files){
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    a.href = f.path;
+    a.textContent = f.name;
+    const meta = document.createElement('span');
+    meta.className = 'meta';
+    meta.textContent = (f.size_human || '') + '  ' + shortDate(f.modified);
+    li.appendChild(a);
+    li.appendChild(meta);
+    ul.appendChild(li);
+  }
+  return ul;
+}
+
+// Recursively renders a folder-tree node's files and sub-folders into parentEl.
+function renderFolderNode(node, parentEl){
+  if(node.files.length){
+    parentEl.appendChild(buildFileList(node.files));
+  }
+  const folderNames = Object.keys(node.folders).sort();
+  for(const name of folderNames){
+    const subNode = node.folders[name];
+    const folderEl = document.createElement('details');
+    folderEl.className = 'folder';
+    folderEl.open = true;
+    const summary = document.createElement('summary');
+    summary.textContent = name + '  (' + countFilesInNode(subNode) + ')';
+    folderEl.appendChild(summary);
+    renderFolderNode(subNode, folderEl);
+    parentEl.appendChild(folderEl);
+  }
+}
+
+// -------------------------------------------------------------------------
+
 async function main(){
   const treeEl = document.getElementById('tree');
   const ribbonEl = document.getElementById('ribbon');
@@ -380,21 +478,8 @@ async function main(){
         empty.textContent = 'empty';
         subjEl.appendChild(empty);
       }else{
-        const ul = document.createElement('ul');
-        ul.className = 'files';
-        for(const f of files){
-          const li = document.createElement('li');
-          const a = document.createElement('a');
-          a.href = f.path;
-          a.textContent = f.name;
-          const meta = document.createElement('span');
-          meta.className = 'meta';
-          meta.textContent = (f.size_human || '') + '  ' + shortDate(f.modified);
-          li.appendChild(a);
-          li.appendChild(meta);
-          ul.appendChild(li);
-        }
-        subjEl.appendChild(ul);
+        const rootNode = buildFolderTree(files);
+        renderFolderNode(rootNode, subjEl);
       }
       semEl.appendChild(subjEl);
     }
