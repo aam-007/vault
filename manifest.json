@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-09T20:43:00+05:30",
+  "generated_at": "2026-08-09T20:44:45+05:30",
   "recent_file": {
-    "path": "sem_3/ass/SDA/ADITYA_S046_LAB1.xlsx",
+    "path": "sem_3/assignments/SDA/ADITYA_S046_LAB1.xlsx",
     "name": "ADITYA_S046_LAB1.xlsx",
     "modified": "2026-08-09T20:24:02+05:30"
   },
   "tree": {
     "sem_3": {
-      "ass": [
+      "assignments": [
         {
           "name": "Unit 1_Sets Relations and Functions_Tutorials.pdf",
           "folder": "DM/unit 1",
-          "path": "sem_3/ass/DM/unit 1/Unit 1_Sets Relations and Functions_Tutorials.pdf",
+          "path": "sem_3/assignments/DM/unit 1/Unit 1_Sets Relations and Functions_Tutorials.pdf",
           "size": 489910,
           "size_human": "478.4K",
           "modified": "2026-07-28T22:26:26+05:30"
@@ -19,7 +19,7 @@
         {
           "name": "S046_DSA_Lab1.docx",
           "folder": "DSA",
-          "path": "sem_3/ass/DSA/S046_DSA_Lab1.docx",
+          "path": "sem_3/assignments/DSA/S046_DSA_Lab1.docx",
           "size": 202293,
           "size_human": "197.6K",
           "modified": "2026-08-02T11:21:44+05:30"
@@ -27,7 +27,7 @@
         {
           "name": "S046_EXP2_DSA.docx",
           "folder": "DSA",
-          "path": "sem_3/ass/DSA/S046_EXP2_DSA.docx",
+          "path": "sem_3/assignments/DSA/S046_EXP2_DSA.docx",
           "size": 67402,
           "size_human": "65.8K",
           "modified": "2026-08-09T19:52:56+05:30"
@@ -35,7 +35,7 @@
         {
           "name": "REL_ppt.pdf",
           "folder": "MAE",
-          "path": "sem_3/ass/MAE/REL_ppt.pdf",
+          "path": "sem_3/assignments/MAE/REL_ppt.pdf",
           "size": 1391672,
           "size_human": "1.3M",
           "modified": "2026-07-23T17:33:03+05:30"
@@ -43,7 +43,7 @@
         {
           "name": "REL_ppt.pptx",
           "folder": "MAE",
-          "path": "sem_3/ass/MAE/REL_ppt.pptx",
+          "path": "sem_3/assignments/MAE/REL_ppt.pptx",
           "size": 2943272,
           "size_human": "2.8M",
           "modified": "2026-07-23T17:42:02+05:30"
@@ -51,7 +51,7 @@
         {
           "name": "S030_MU_Assignment_1.pdf",
           "folder": "MU",
-          "path": "sem_3/ass/MU/S030_MU_Assignment_1.pdf",
+          "path": "sem_3/assignments/MU/S030_MU_Assignment_1.pdf",
           "size": 6079644,
           "size_human": "5.8M",
           "modified": "2026-08-05T21:54:55+05:30"
@@ -59,7 +59,7 @@
         {
           "name": "S046_EXP_1_Pandas_and_Numpy_Exercise.ipynb",
           "folder": "MU",
-          "path": "sem_3/ass/MU/S046_EXP_1_Pandas_and_Numpy_Exercise.ipynb",
+          "path": "sem_3/assignments/MU/S046_EXP_1_Pandas_and_Numpy_Exercise.ipynb",
           "size": 20197,
           "size_human": "19.7K",
           "modified": "2026-08-09T19:55:32+05:30"
@@ -67,7 +67,7 @@
         {
           "name": "S046_LAB3_MU.ipynb",
           "folder": "MU",
-          "path": "sem_3/ass/MU/S046_LAB3_MU.ipynb",
+          "path": "sem_3/assignments/MU/S046_LAB3_MU.ipynb",
           "size": 104440,
           "size_human": "102.0K",
           "modified": "2026-08-09T19:53:45+05:30"
@@ -75,7 +75,7 @@
         {
           "name": "S046_prac2_MU.ipynb",
           "folder": "MU",
-          "path": "sem_3/ass/MU/S046_prac2_MU.ipynb",
+          "path": "sem_3/assignments/MU/S046_prac2_MU.ipynb",
           "size": 3488,
           "size_human": "3.4K",
           "modified": "2026-08-09T19:54:57+05:30"
@@ -83,7 +83,7 @@
         {
           "name": "LAB2.docx",
           "folder": "OOP",
-          "path": "sem_3/ass/OOP/LAB2.docx",
+          "path": "sem_3/assignments/OOP/LAB2.docx",
           "size": 203950,
           "size_human": "199.2K",
           "modified": "2026-08-02T11:29:53+05:30"
@@ -91,7 +91,7 @@
         {
           "name": "where is LAB1 (question mark).txt",
           "folder": "OOP",
-          "path": "sem_3/ass/OOP/where is LAB1 (question mark).txt",
+          "path": "sem_3/assignments/OOP/where is LAB1 (question mark).txt",
           "size": 74,
           "size_human": "74B",
           "modified": "2026-08-02T11:23:36+05:30"
@@ -99,7 +99,7 @@
         {
           "name": "ADITYA_S046_LAB1.xlsx",
           "folder": "SDA",
-          "path": "sem_3/ass/SDA/ADITYA_S046_LAB1.xlsx",
+          "path": "sem_3/assignments/SDA/ADITYA_S046_LAB1.xlsx",
           "size": 19280,
           "size_human": "18.8K",
           "modified": "2026-08-09T20:24:02+05:30"
@@ -107,7 +107,7 @@
         {
           "name": "Aditya_S046_LAB2.xlsx",
           "folder": "SDA",
-          "path": "sem_3/ass/SDA/Aditya_S046_LAB2.xlsx",
+          "path": "sem_3/assignments/SDA/Aditya_S046_LAB2.xlsx",
           "size": 26849,
           "size_human": "26.2K",
           "modified": "2026-08-09T19:54:26+05:30"
@@ -115,7 +115,7 @@
         {
           "name": "Aditya_S046_LAB3.xlsx",
           "folder": "SDA",
-          "path": "sem_3/ass/SDA/Aditya_S046_LAB3.xlsx",
+          "path": "sem_3/assignments/SDA/Aditya_S046_LAB3.xlsx",
           "size": 31811,
           "size_human": "31.1K",
           "modified": "2026-08-09T19:52:04+05:30"
