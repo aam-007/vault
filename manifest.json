@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-09T20:22:35+05:30",
+  "generated_at": "2026-08-09T20:25:02+05:30",
   "recent_file": {
-    "path": "sem_3/notes/mu/Lecture-3-4-Central Tendency.pdf",
-    "name": "Lecture-3-4-Central Tendency.pdf",
-    "modified": "2026-08-09T20:20:33+05:30"
+    "path": "sem_3/ass/SDA/ADITYA_S046_LAB1.xlsx",
+    "name": "ADITYA_S046_LAB1.xlsx",
+    "modified": "2026-08-09T20:24:02+05:30"
   },
   "tree": {
     "sem_3": {
@@ -95,6 +95,14 @@
           "size": 74,
           "size_human": "74B",
           "modified": "2026-08-02T11:23:36+05:30"
+        },
+        {
+          "name": "ADITYA_S046_LAB1.xlsx",
+          "folder": "SDA",
+          "path": "sem_3/ass/SDA/ADITYA_S046_LAB1.xlsx",
+          "size": 19280,
+          "size_human": "18.8K",
+          "modified": "2026-08-09T20:24:02+05:30"
         },
         {
           "name": "Aditya_S046_LAB2.xlsx",
