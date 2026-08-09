@@ -14,6 +14,8 @@
     --link:#0645ad;
     --link-visited:#551a8b;
     --dash:#eee;
+    --font-body:ui-monospace,SFMono-Regular,"SF Mono",Consolas,"Liberation Mono",Menlo,monospace;
+    --font-head:inherit;
   }
 
   :root[data-theme="dark"]{
@@ -49,6 +51,20 @@
     --dash:#e6d8bf;
   }
 
+  :root[data-theme="retro"]{
+    --fg:#000000;
+    --muted:#4d4d4d;
+    --line:#7d7d7d;
+    --bg:#c0c0c0;
+    --bg-alt:#eae6d8;
+    --link:#0000ee;
+    --link-visited:#551a8b;
+    --dash:#bdbdbd;
+    --font-body:"Times New Roman",Times,serif;
+    --font-head:"MS Sans Serif","Tahoma",Geneva,sans-serif;
+    --header-blue:#000080;
+  }
+
   *{box-sizing:border-box;}
   html{scroll-behavior:smooth;}
   body{
@@ -56,11 +72,16 @@
     padding:0;
     background:var(--bg);
     color:var(--fg);
-    font-family:ui-monospace,SFMono-Regular,"SF Mono",Consolas,"Liberation Mono",Menlo,monospace;
+    font-family:var(--font-body);
     font-size:14px;
     line-height:1.5;
     transition:background-color .35s ease, color .35s ease;
   }
+  :root[data-theme="retro"] body{
+    font-size:16px;
+    background-image:repeating-linear-gradient(0deg, rgba(0,0,0,0.035) 0px, rgba(0,0,0,0.035) 1px, transparent 1px, transparent 2px);
+  }
+
   a{color:var(--link);text-decoration:none;transition:color .35s ease;}
   a:visited{color:var(--link-visited);}
   a:hover{text-decoration:underline;}
@@ -69,6 +90,72 @@
     max-width:860px;
     margin:0 auto;
     padding:0 16px 64px;
+  }
+  :root[data-theme="retro"] .wrap{
+    max-width:820px;
+    margin:22px auto 60px;
+    background:var(--bg-alt);
+    border:2px solid #000;
+    box-shadow:5px 5px 0 #6f6f6f, 6px 6px 0 #000;
+    padding:0 0 8px;
+  }
+
+  /* elements shown only in the retro theme */
+  .retro-only{display:none;}
+  :root[data-theme="retro"] .retro-only{display:block;}
+  :root[data-theme="retro"] .retro-only.flex{display:flex;}
+
+  /* elements hidden in the retro theme */
+  :root[data-theme="retro"] .hide-in-retro{display:none;}
+
+  /* ===== retro window chrome ===== */
+  .titlebar{
+    background:linear-gradient(180deg,#000080,#1a1a8c 40%,#000060);
+    color:#fff;
+    font-family:var(--font-head);
+    font-size:12px;
+    padding:4px 6px;
+    align-items:center;
+    justify-content:space-between;
+    letter-spacing:0.3px;
+  }
+  .titlebar .name{display:flex;align-items:center;gap:6px;}
+  .titlebar .icon{
+    width:12px;height:12px;
+    background:#ffd955;
+    border:1px solid #7a5200;
+  }
+  .titlebar .buttons{display:flex;gap:3px;}
+  .titlebar .buttons span{
+    width:14px;height:12px;
+    background:#c0c0c0;
+    border:1px solid #000;
+    border-top-color:#fff;
+    border-left-color:#fff;
+    display:inline-block;
+  }
+  .addressbar{
+    background:#c0c0c0;
+    border-bottom:2px solid #808080;
+    padding:4px 8px;
+    font-family:var(--font-head);
+    font-size:11px;
+    color:#000;
+    gap:6px;
+    align-items:center;
+  }
+  .addressbar .label{color:#404040;}
+  .addressbar .url{
+    flex:1;
+    background:#fff;
+    border:1px solid #404040;
+    border-top-color:#000;
+    border-left-color:#000;
+    padding:2px 6px;
+    font-family:"Courier New",monospace;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
   }
 
   header{
@@ -82,14 +169,22 @@
     transition:border-color .35s ease;
     animation:fadeDown .5s ease both;
   }
-  header .title{
-    min-width:0;
+  :root[data-theme="retro"] header{
+    padding:16px 20px 8px;
+    font-family:"Times New Roman",Times,serif;
   }
+  header .title{min-width:0;}
   header h1{
     margin:0;
     font-size:20px;
     font-weight:700;
     letter-spacing:0.5px;
+  }
+  :root[data-theme="retro"] header h1{font-size:19px;}
+  header .title .subhead{
+    margin:6px 0 0;
+    color:var(--muted);
+    font-size:12.5px;
   }
   header p{
     margin:6px 0 0;
@@ -107,6 +202,7 @@
     flex-shrink:0;
     transition:border-color .35s ease;
   }
+  :root[data-theme="retro"] .theme-toggle{border-radius:0;}
   .theme-toggle button{
     appearance:none;
     border:none;
@@ -121,9 +217,7 @@
     transition:background-color .25s ease, color .25s ease, border-color .35s ease;
   }
   .theme-toggle button:last-child{border-right:none;}
-  .theme-toggle button:hover{
-    color:var(--fg);
-  }
+  .theme-toggle button:hover{color:var(--fg);}
   .theme-toggle button[aria-pressed="true"]{
     background:var(--fg);
     color:var(--bg);
@@ -134,7 +228,7 @@
   }
 
   .ribbon{
-    margin-top:16px;
+    margin:16px 0 0;
     padding:8px 12px;
     border:1px solid var(--line);
     background:var(--bg-alt);
@@ -145,13 +239,46 @@
     transition:background-color .35s ease, border-color .35s ease, color .35s ease;
     animation:fadeUp .5s ease .05s both;
   }
+  :root[data-theme="retro"] .ribbon{
+    margin:0 20px 14px;
+    background:var(--bg-alt);
+    color:var(--fg);
+    font-family:"Courier New",monospace;
+    font-size:12px;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+    border-left:none;
+    border-right:none;
+    letter-spacing:0.3px;
+  }
   .ribbon b{color:var(--fg);font-weight:600;transition:color .35s ease;}
+  :root[data-theme="retro"] .ribbon b{font-weight:bold;}
   .ribbon .sep{margin:0 8px;color:var(--line);}
+  :root[data-theme="retro"] .ribbon .sep{color:#999;}
+
+  .content-inner{padding:0 16px;}
+  :root[data-theme="retro"] .content-inner{padding:0 20px;}
+
+  .colhead{
+    font-family:"Courier New",monospace;
+    font-size:12px;
+    font-weight:bold;
+    color:#000;
+    background:#d8d4c4;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+    padding:3px 4px;
+    margin:0 20px 4px;
+    justify-content:space-between;
+  }
+  .colhead .c-mod{width:150px;text-align:right;}
+  .colhead .c-size{width:70px;text-align:right;}
 
   section.sem{
     margin-top:26px;
     animation:fadeUp .45s ease both;
   }
+  :root[data-theme="retro"] section.sem{margin:16px 20px 0;}
   section.sem > summary{
     cursor:pointer;
     list-style:none;
@@ -161,6 +288,14 @@
     border-bottom:1px solid var(--line);
     transition:border-color .35s ease;
   }
+  :root[data-theme="retro"] section.sem > summary{
+    background:var(--header-blue);
+    color:#fff;
+    padding:5px 6px;
+    font-family:var(--font-head);
+    letter-spacing:0.4px;
+    border-bottom:none;
+  }
   section.sem > summary::-webkit-details-marker{display:none;}
   section.sem > summary::before{
     content:"▸ ";
@@ -168,9 +303,9 @@
     display:inline-block;
     transition:transform .2s ease, color .35s ease;
   }
-  section.sem[open] > summary::before{
-    content:"▾ ";
-  }
+  section.sem[open] > summary::before{content:"▾ ";}
+  :root[data-theme="retro"] section.sem > summary::before{content:"► ";color:#fff;}
+  :root[data-theme="retro"] section.sem[open] > summary::before{content:"▼ ";}
 
   details.subject{
     margin:2px 0 2px 18px;
@@ -178,31 +313,45 @@
     padding-left:14px;
     transition:border-color .35s ease;
   }
+  :root[data-theme="retro"] details.subject{
+    margin:0;
+    padding-left:0;
+    border-left:none;
+    border-bottom:1px dashed #999;
+  }
   details.subject > summary{
     cursor:pointer;
     list-style:none;
     padding:6px 0;
     color:var(--fg);
     font-weight:600;
+    display:flex;
+    align-items:center;
+    gap:6px;
     transition:color .35s ease;
   }
+  :root[data-theme="retro"] details.subject > summary{
+    padding:4px 4px 4px 8px;
+    background:var(--bg-alt);
+    font-family:"Courier New",monospace;
+    font-size:13px;
+  }
   details.subject > summary::-webkit-details-marker{display:none;}
-  details.subject > summary::before{
-    content:"+ ";
-    color:var(--muted);
-  }
-  details.subject[open] > summary::before{
-    content:"− ";
-  }
-  details.subject[open] > ul.files{
-    animation:unfold .25s ease both;
-  }
+  details.subject > summary::before{content:"+ ";color:var(--muted);}
+  details.subject[open] > summary::before{content:"− ";}
+  :root[data-theme="retro"] details.subject > summary::before{content:none;}
+  details.subject[open] > ul.files{animation:unfold .25s ease both;}
 
   details.folder{
     margin:2px 0 2px 18px;
     border-left:1px dotted var(--line);
     padding-left:14px;
     transition:border-color .35s ease;
+  }
+  :root[data-theme="retro"] details.folder{
+    margin:0 0 0 16px;
+    padding-left:14px;
+    border-left:1px dotted #888;
   }
   details.folder > summary{
     cursor:pointer;
@@ -211,18 +360,61 @@
     color:var(--muted);
     font-weight:600;
     font-size:13px;
+    display:flex;
+    align-items:center;
+    gap:6px;
     transition:color .35s ease;
   }
+  :root[data-theme="retro"] details.folder > summary{
+    padding:3px 4px;
+    font-family:"Courier New",monospace;
+    font-size:12.5px;
+    color:#000;
+    font-weight:normal;
+  }
   details.folder > summary::-webkit-details-marker{display:none;}
-  details.folder > summary::before{
-    content:"▸ ";
-    color:var(--muted);
+  details.folder > summary::before{content:"▸ ";color:var(--muted);}
+  details.folder[open] > summary::before{content:"▾ ";}
+  :root[data-theme="retro"] details.folder > summary::before{content:none;}
+  details.folder[open] > ul.files{animation:unfold .25s ease both;}
+
+  /* pixel folder / file icons — retro theme only */
+  .icon-folder{
+    display:none;
+    width:16px;height:12px;
+    flex-shrink:0;
+    position:relative;
+    background:#e8b000;
+    border:1px solid #7a5200;
   }
-  details.folder[open] > summary::before{
-    content:"▾ ";
+  :root[data-theme="retro"] .icon-folder{display:inline-block;image-rendering:pixelated;}
+  .icon-folder::before{
+    content:"";
+    position:absolute;
+    top:-3px;left:0;
+    width:8px;height:3px;
+    background:#e8b000;
+    border:1px solid #7a5200;
+    border-bottom:none;
   }
-  details.folder[open] > ul.files{
-    animation:unfold .25s ease both;
+  details[open] > summary .icon-folder{background:#ffd042;}
+
+  .icon-file{
+    display:none;
+    width:12px;height:14px;
+    flex-shrink:0;
+    background:#fff;
+    border:1px solid #555;
+    position:relative;
+  }
+  :root[data-theme="retro"] .icon-file{display:inline-block;}
+  .icon-file::after{
+    content:"";
+    position:absolute;
+    top:0;right:0;
+    width:0;height:0;
+    border-left:4px solid #bbb;
+    border-bottom:4px solid #fff;
   }
 
   ul.files{
@@ -230,8 +422,10 @@
     margin:0 0 8px;
     padding:0 0 0 18px;
   }
+  :root[data-theme="retro"] ul.files{margin:0;padding:0;}
   ul.files li{
     display:flex;
+    align-items:center;
     justify-content:space-between;
     gap:12px;
     padding:3px 0;
@@ -239,8 +433,21 @@
     flex-wrap:wrap;
     transition:border-color .35s ease, background-color .2s ease;
   }
-  ul.files li:hover{
-    background:var(--bg-alt);
+  :root[data-theme="retro"] ul.files li{
+    padding:3px 4px 3px 26px;
+    font-family:"Courier New",monospace;
+    font-size:12.5px;
+    border-bottom:1px dotted #ccc;
+  }
+  :root[data-theme="retro"] ul.files li:nth-child(odd){background:#f0eee2;}
+  :root[data-theme="retro"] ul.files li:hover{background:#ffe8a3;}
+  ul.files li:hover{background:var(--bg-alt);}
+  ul.files li a{
+    flex:1;
+    min-width:0;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
   }
   ul.files li .meta{
     color:var(--muted);
@@ -248,11 +455,18 @@
     white-space:nowrap;
     transition:color .35s ease;
   }
+  :root[data-theme="retro"] ul.files li .meta{color:#333;font-size:11.5px;}
+
   .empty{
     color:var(--muted);
     font-size:12.5px;
     padding:4px 0 8px 18px;
     transition:color .35s ease;
+  }
+  :root[data-theme="retro"] .empty{
+    font-family:"Courier New",monospace;
+    padding:5px 4px 8px 30px;
+    font-style:italic;
   }
 
   footer{
@@ -263,26 +477,39 @@
     font-size:11.5px;
     transition:border-color .35s ease, color .35s ease;
   }
+  :root[data-theme="retro"] footer{
+    margin-top:24px;
+    border-top:2px solid #000;
+    padding:10px 20px 16px;
+    font-family:var(--font-head);
+    background:var(--bg-alt);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:10px;
+  }
+  footer .footcount{padding:0 16px;}
+  :root[data-theme="retro"] footer .footcount{padding:0;}
 
   .error{
-    margin-top:20px;
+    margin:20px 16px 0;
     padding:10px 12px;
     border:1px solid var(--line);
     color:var(--muted);
   }
+  :root[data-theme="retro"] .error{
+    margin:16px 20px 0;
+    border:2px solid #900;
+    background:#ffe0e0;
+    color:#900;
+    font-family:"Courier New",monospace;
+    font-size:13px;
+  }
 
-  @keyframes fadeDown{
-    from{opacity:0; transform:translateY(-6px);}
-    to{opacity:1; transform:translateY(0);}
-  }
-  @keyframes fadeUp{
-    from{opacity:0; transform:translateY(8px);}
-    to{opacity:1; transform:translateY(0);}
-  }
-  @keyframes unfold{
-    from{opacity:0; transform:translateY(-4px);}
-    to{opacity:1; transform:translateY(0);}
-  }
+  @keyframes fadeDown{from{opacity:0; transform:translateY(-6px);} to{opacity:1; transform:translateY(0);}}
+  @keyframes fadeUp{from{opacity:0; transform:translateY(8px);} to{opacity:1; transform:translateY(0);}}
+  @keyframes unfold{from{opacity:0; transform:translateY(-4px);} to{opacity:1; transform:translateY(0);}}
 
   @media (prefers-reduced-motion: reduce){
     *, *::before, *::after{
@@ -295,34 +522,56 @@
     body{font-size:13px;}
     header h1{font-size:18px;}
     ul.files li{flex-direction:column;gap:2px;}
+    .colhead{display:none;}
   }
 </style>
 </head>
 <body>
 <div class="wrap">
 
-  <header>
-    <div class="title">
-      <h1>vault</h1>
+  <div class="titlebar retro-only flex">
+    <div class="name"><span class="icon"></span> Netscape — Index of /vault/</div>
+    <div class="buttons"><span></span><span></span><span></span></div>
+  </div>
+  <div class="addressbar retro-only flex">
+    <span class="label">Location:</span>
+    <span class="url">file:///vault/index.html</span>
+  </div>
+
+  <div class="content-inner">
+    <header>
+      <div class="title">
+        <h1>vault</h1>
+        <p class="subhead hide-in-retro"></p>
+      </div>
+      <div class="theme-toggle" role="group" aria-label="Theme">
+        <button type="button" data-theme-btn="light" aria-pressed="true">light</button>
+        <button type="button" data-theme-btn="dark" aria-pressed="false">dark</button>
+        <button type="button" data-theme-btn="grey" aria-pressed="false">grey</button>
+        <button type="button" data-theme-btn="comfort" aria-pressed="false">comfort</button>
+        <button type="button" data-theme-btn="retro" aria-pressed="false">retro</button>
+      </div>
+    </header>
+
+    <div class="ribbon" id="ribbon">loading manifest…</div>
+
+    <div class="colhead retro-only flex">
+      <span class="c-name">Name</span>
+      <span class="c-mod">Last modified</span>
+      <span class="c-size">Size</span>
     </div>
-    <div class="theme-toggle" role="group" aria-label="Theme">
-      <button type="button" data-theme-btn="light" aria-pressed="true">light</button>
-      <button type="button" data-theme-btn="dark" aria-pressed="false">dark</button>
-      <button type="button" data-theme-btn="grey" aria-pressed="false">grey</button>
-      <button type="button" data-theme-btn="comfort" aria-pressed="false">comfort</button>
-    </div>
-  </header>
 
-  <div class="ribbon" id="ribbon">loading manifest…</div>
+    <div id="tree"></div>
 
-  <div id="tree"></div>
-
-  <footer id="footer"></footer>
+    <footer id="footer">
+      <span class="footcount"></span>
+    </footer>
+  </div>
 </div>
 
 <script>
 (function initTheme(){
-  const THEMES = ["light", "dark", "grey", "comfort"];
+  const THEMES = ["light", "dark", "grey", "comfort", "retro"];
   const root = document.documentElement;
   let saved = "light";
   try{
@@ -352,8 +601,6 @@
 
 // --- folder-tree helpers -----------------------------------------------
 
-// Turns a flat file array (each possibly carrying a "folder" string like
-// "Unit3/Extra") into a nested { files:[], folders:{ name: node } } tree.
 function buildFolderTree(files){
   const root = { files: [], folders: {} };
   for(const f of files){
@@ -387,20 +634,26 @@ function buildFileList(files){
   ul.className = 'files';
   for(const f of files){
     const li = document.createElement('li');
+
+    const icon = document.createElement('span');
+    icon.className = 'icon-file';
+    li.appendChild(icon);
+
     const a = document.createElement('a');
     a.href = f.path;
     a.textContent = f.name;
+    li.appendChild(a);
+
     const meta = document.createElement('span');
     meta.className = 'meta';
     meta.textContent = (f.size_human || '') + '  ' + shortDate(f.modified);
-    li.appendChild(a);
     li.appendChild(meta);
+
     ul.appendChild(li);
   }
   return ul;
 }
 
-// Recursively renders a folder-tree node's files and sub-folders into parentEl.
 function renderFolderNode(node, parentEl){
   if(node.files.length){
     parentEl.appendChild(buildFileList(node.files));
@@ -412,7 +665,12 @@ function renderFolderNode(node, parentEl){
     folderEl.className = 'folder';
     folderEl.open = true;
     const summary = document.createElement('summary');
-    summary.textContent = name + '  (' + countFilesInNode(subNode) + ')';
+    const icon = document.createElement('span');
+    icon.className = 'icon-folder';
+    summary.appendChild(icon);
+    const label = document.createElement('span');
+    label.textContent = name + '  (' + countFilesInNode(subNode) + ')';
+    summary.appendChild(label);
     folderEl.appendChild(summary);
     renderFolderNode(subNode, folderEl);
     parentEl.appendChild(folderEl);
@@ -424,7 +682,7 @@ function renderFolderNode(node, parentEl){
 async function main(){
   const treeEl = document.getElementById('tree');
   const ribbonEl = document.getElementById('ribbon');
-  const footerEl = document.getElementById('footer');
+  const footcountEl = document.querySelector('#footer .footcount');
 
   let data;
   try{
@@ -437,7 +695,6 @@ async function main(){
     return;
   }
 
-  // ribbon
   const recent = data.recent_file;
   const generated = data.generated_at ? fmtDate(data.generated_at) : '—';
   let ribbonHTML = '<b>last updated:</b> ' + generated;
@@ -446,7 +703,6 @@ async function main(){
   }
   ribbonEl.innerHTML = ribbonHTML;
 
-  // tree
   const semesters = Object.keys(data.tree || {}).sort();
   if(semesters.length === 0){
     treeEl.innerHTML = '<div class="error">no semesters found in manifest.</div>';
@@ -468,8 +724,13 @@ async function main(){
       const subjEl = document.createElement('details');
       subjEl.className = 'subject';
       const subjSummary = document.createElement('summary');
+      const icon = document.createElement('span');
+      icon.className = 'icon-folder';
+      subjSummary.appendChild(icon);
       const files = data.tree[sem][subj];
-      subjSummary.textContent = subj + '  (' + files.length + ')';
+      const label = document.createElement('span');
+      label.textContent = subj + '  (' + files.length + ')';
+      subjSummary.appendChild(label);
       subjEl.appendChild(subjSummary);
 
       if(files.length === 0){
@@ -488,13 +749,14 @@ async function main(){
 
   const totalFiles = semesters.reduce((n, sem) =>
     n + Object.values(data.tree[sem]).reduce((m, arr) => m + arr.length, 0), 0);
-  footerEl.textContent = totalFiles + ' file(s) — ' + semesters.length + ' semester(s) — for support: aditya.mishra10@nmims.in';
+  if(footcountEl){
+    footcountEl.textContent = totalFiles + ' file(s) — ' + semesters.length + ' semester(s) — for support: aditya.mishra10@nmims.in';
+  }
 }
 
 function fmtDate(iso) {
   try {
     const d = new Date(iso);
-
     return new Intl.DateTimeFormat("en-IN", {
       timeZone: "Asia/Kolkata",
       year: "numeric",
@@ -512,7 +774,6 @@ function fmtDate(iso) {
 function shortDate(iso) {
   try {
     const d = new Date(iso);
-
     return new Intl.DateTimeFormat("en-IN", {
       timeZone: "Asia/Kolkata",
       year: "numeric",
@@ -523,8 +784,6 @@ function shortDate(iso) {
     return "";
   }
 }
-
-
 
 main();
 </script>
