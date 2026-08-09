@@ -58,16 +58,32 @@ def visible_dirs(path):
     )
 
 
-def visible_files(path):
+def collect_files(path, rel_parts):
+    """Recursively collect file path-parts under `path`, depth-first,
+    files-before-subdirs, each level naturally sorted."""
+    entries = os.listdir(path)
+
+    dirs = sorted(
+        d
+        for d in entries
+        if os.path.isdir(os.path.join(path, d)) and not d.startswith(".")
+    )
+
     files = [
         f
-        for f in os.listdir(path)
+        for f in entries
         if os.path.isfile(os.path.join(path, f))
         and not f.startswith(".")
         and f not in IGNORE_FILES
     ]
     files.sort(key=natural_key)
-    return files
+
+    results = [rel_parts + [f] for f in files]
+
+    for d in dirs:
+        results.extend(collect_files(os.path.join(path, d), rel_parts + [d]))
+
+    return results
 
 
 def scan():
@@ -82,15 +98,18 @@ def scan():
             subj_path = os.path.join(sem_path, subject)
             entries = []
 
-            for filename in visible_files(subj_path):
-                full_path = os.path.join(subj_path, filename)
+            for parts in collect_files(subj_path, []):
+                filename = parts[-1]
+                folder = "/".join(parts[:-1])  # "" if file sits directly in subject
+                full_path = os.path.join(subj_path, *parts)
                 stat = os.stat(full_path)
 
-                rel_path = f"{semester}/{subject}/{filename}"
+                rel_path = "/".join([semester, subject, *parts])
 
                 entries.append(
                     {
                         "name": filename,
+                        "folder": folder,
                         "path": rel_path,
                         "size": stat.st_size,
                         "size_human": human_size(stat.st_size),
