@@ -18,12 +18,39 @@ REPO_ROOT = subprocess.run(
 
 MANIFEST_PATH = os.path.join(VAULT_DIR, "manifest.json")
 
+# Infra files: never scanned into the manifest, never deleted from disk.
 IGNORE_FILES = {
     "manifest.json",
     "runner.py",
-    ".DS_Store",
     ".gitkeep",
 }
+
+# Junk files: exact names that are always safe to delete outright.
+JUNK_FILES = {
+    ".DS_Store",
+    "Thumbs.db",
+    "desktop.ini",
+}
+
+# Junk filename patterns: Office lock files (~$doc.docx), LibreOffice lock
+# files, editor swap/backup files, generic temp files — also safe to delete.
+JUNK_PATTERNS = (
+    re.compile(r"^~\$"),          # Word/Excel/PowerPoint lock files
+    re.compile(r"^\.~lock\."),    # LibreOffice lock files
+    re.compile(r"\.(tmp|temp|swp|swx|bak)$", re.IGNORECASE),
+    re.compile(r"^~.*\.tmp$", re.IGNORECASE),
+)
+
+
+def is_junk(filename):
+    if filename in JUNK_FILES:
+        return True
+    return any(pattern.search(filename) for pattern in JUNK_PATTERNS)
+
+
+def is_ignored(filename):
+    return filename in IGNORE_FILES or is_junk(filename)
+
 
 LEC_PATTERN = re.compile(r"Lec0*(\d+)", re.IGNORECASE)
 IST = ZoneInfo("Asia/Kolkata")
@@ -74,7 +101,7 @@ def collect_files(path, rel_parts):
         for f in entries
         if os.path.isfile(os.path.join(path, f))
         and not f.startswith(".")
-        and f not in IGNORE_FILES
+        and not is_ignored(f)
     ]
     files.sort(key=natural_key)
 
@@ -84,6 +111,34 @@ def collect_files(path, rel_parts):
         results.extend(collect_files(os.path.join(path, d), rel_parts + [d]))
 
     return results
+
+
+def cleanup_junk_files():
+    """Recursively delete junk files (Office lock files, .DS_Store, editor
+    swap files, etc.) anywhere under VAULT_DIR, skipping hidden directories
+    like .git. Runs before scan() so junk never enters the manifest or git."""
+    removed = []
+
+    for dirpath, dirnames, filenames in os.walk(VAULT_DIR):
+        dirnames[:] = [d for d in dirnames if not d.startswith(".")]
+
+        for filename in filenames:
+            if not is_junk(filename):
+                continue
+
+            full_path = os.path.join(dirpath, filename)
+            try:
+                os.remove(full_path)
+                removed.append(os.path.relpath(full_path, VAULT_DIR))
+            except OSError as e:
+                print(f"  could not remove {full_path}: {e}")
+
+    if removed:
+        print(f"Removed {len(removed)} junk file(s):")
+        for path in removed:
+            print(f"  - {path}")
+    else:
+        print("No junk files found.")
 
 
 def scan():
@@ -193,6 +248,7 @@ def git_commit_and_push():
 
 
 def main():
+    cleanup_junk_files()
     scan()
     git_commit_and_push()
 

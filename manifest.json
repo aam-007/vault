@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-09T20:16:19+05:30",
+  "generated_at": "2026-08-09T20:22:35+05:30",
   "recent_file": {
-    "path": "sem_3/ass/MU/S046_EXP_1_Pandas_and_Numpy_Exercise.ipynb",
-    "name": "S046_EXP_1_Pandas_and_Numpy_Exercise.ipynb",
-    "modified": "2026-08-09T19:55:32+05:30"
+    "path": "sem_3/notes/mu/Lecture-3-4-Central Tendency.pdf",
+    "name": "Lecture-3-4-Central Tendency.pdf",
+    "modified": "2026-08-09T20:20:33+05:30"
   },
   "tree": {
     "sem_3": {
@@ -111,14 +111,6 @@
           "size": 31811,
           "size_human": "31.1K",
           "modified": "2026-08-09T19:52:04+05:30"
-        },
-        {
-          "name": "~$Aditya_S046_LAB3.xlsx",
-          "folder": "SDA",
-          "path": "sem_3/ass/SDA/~$Aditya_S046_LAB3.xlsx",
-          "size": 165,
-          "size_human": "165B",
-          "modified": "2026-08-09T19:52:04+05:30"
         }
       ],
       "notes": [
@@ -195,36 +187,20 @@
           "modified": "2026-08-04T20:46:43+05:30"
         },
         {
-          "name": "MAE_Lec1.pdf",
-          "folder": "mae",
-          "path": "sem_3/notes/mae/MAE_Lec1.pdf",
-          "size": 120214,
-          "size_human": "117.4K",
-          "modified": "2026-07-17T19:33:01+05:30"
-        },
-        {
-          "name": "MAE_Lec2.pdf",
-          "folder": "mae",
-          "path": "sem_3/notes/mae/MAE_Lec2.pdf",
-          "size": 146366,
-          "size_human": "142.9K",
-          "modified": "2026-07-25T14:01:54+05:30"
-        },
-        {
-          "name": "MAE_Lec3.pdf",
-          "folder": "mae",
-          "path": "sem_3/notes/mae/MAE_Lec3.pdf",
-          "size": 244260,
-          "size_human": "238.5K",
-          "modified": "2026-08-01T21:24:01+05:30"
-        },
-        {
-          "name": "Lecs 1 to 3.pdf",
+          "name": "Lecture-1-2-Introduction-Classification-Tabulation.pdf",
           "folder": "mu",
-          "path": "sem_3/notes/mu/Lecs 1 to 3.pdf",
-          "size": 255744,
-          "size_human": "249.8K",
-          "modified": "2026-07-25T14:54:22+05:30"
+          "path": "sem_3/notes/mu/Lecture-1-2-Introduction-Classification-Tabulation.pdf",
+          "size": 246210,
+          "size_human": "240.4K",
+          "modified": "2026-08-09T20:20:33+05:30"
+        },
+        {
+          "name": "Lecture-3-4-Central Tendency.pdf",
+          "folder": "mu",
+          "path": "sem_3/notes/mu/Lecture-3-4-Central Tendency.pdf",
+          "size": 519366,
+          "size_human": "507.2K",
+          "modified": "2026-08-09T20:20:33+05:30"
         },
         {
           "name": "oop_Lec 1_and_Lec2.pdf",
