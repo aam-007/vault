@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-09T20:56:09+05:30",
+  "generated_at": "2026-08-10T20:20:50+05:30",
   "recent_file": {
-    "path": "sem_3/assignments/SDA/ADITYA_S046_LAB1.xlsx",
-    "name": "ADITYA_S046_LAB1.xlsx",
-    "modified": "2026-08-09T20:24:02+05:30"
+    "path": "sem_3/notes/dsa/dsa_Lec13.pdf",
+    "name": "dsa_Lec13.pdf",
+    "modified": "2026-08-10T20:20:27+05:30"
   },
   "tree": {
     "sem_3": {
@@ -193,6 +193,14 @@
           "size": 617058,
           "size_human": "602.6K",
           "modified": "2026-08-04T20:46:43+05:30"
+        },
+        {
+          "name": "dsa_Lec13.pdf",
+          "folder": "dsa",
+          "path": "sem_3/notes/dsa/dsa_Lec13.pdf",
+          "size": 361879,
+          "size_human": "353.4K",
+          "modified": "2026-08-10T20:20:27+05:30"
         },
         {
           "name": "Lecture-1-2-Introduction-Classification-Tabulation.pdf",
