@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-10T20:20:50+05:30",
+  "generated_at": "2026-08-11T21:41:24+05:30",
   "recent_file": {
-    "path": "sem_3/notes/dsa/dsa_Lec13.pdf",
-    "name": "dsa_Lec13.pdf",
-    "modified": "2026-08-10T20:20:27+05:30"
+    "path": "sem_3/assignments/SDA/CustomerCleanup_AdityaMishra_Lab4.xlsx",
+    "name": "CustomerCleanup_AdityaMishra_Lab4.xlsx",
+    "modified": "2026-08-11T21:40:42+05:30"
   },
   "tree": {
     "sem_3": {
@@ -119,6 +119,14 @@
           "size": 31811,
           "size_human": "31.1K",
           "modified": "2026-08-09T19:52:04+05:30"
+        },
+        {
+          "name": "CustomerCleanup_AdityaMishra_Lab4.xlsx",
+          "folder": "SDA",
+          "path": "sem_3/assignments/SDA/CustomerCleanup_AdityaMishra_Lab4.xlsx",
+          "size": 27608,
+          "size_human": "27.0K",
+          "modified": "2026-08-11T21:40:42+05:30"
         }
       ],
       "notes": [
