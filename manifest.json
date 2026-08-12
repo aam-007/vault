@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-12T22:23:05+05:30",
+  "generated_at": "2026-08-12T22:32:19+05:30",
   "recent_file": {
-    "path": "sem_3/notes/oop/oop_Lec 6.pdf",
-    "name": "oop_Lec 6.pdf",
-    "modified": "2026-08-12T22:22:54+05:30"
+    "path": "sem_3/assignments/OOP/PRAC 2.pdf",
+    "name": "PRAC 2.pdf",
+    "modified": "2026-08-12T22:31:58+05:30"
   },
   "tree": {
     "sem_3": {
@@ -87,6 +87,14 @@
           "size": 203950,
           "size_human": "199.2K",
           "modified": "2026-08-02T11:29:53+05:30"
+        },
+        {
+          "name": "PRAC 2.pdf",
+          "folder": "OOP",
+          "path": "sem_3/assignments/OOP/PRAC 2.pdf",
+          "size": 297303,
+          "size_human": "290.3K",
+          "modified": "2026-08-12T22:31:58+05:30"
         },
         {
           "name": "where is LAB1 (question mark).txt",
