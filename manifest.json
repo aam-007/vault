@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-12T22:32:19+05:30",
+  "generated_at": "2026-08-14T10:41:01+05:30",
   "recent_file": {
-    "path": "sem_3/assignments/OOP/PRAC 2.pdf",
-    "name": "PRAC 2.pdf",
-    "modified": "2026-08-12T22:31:58+05:30"
+    "path": "sem_3/notes/dsa/mid terms/DSA M1 REV (IMPORTANT ALGOS).pdf",
+    "name": "DSA M1 REV (IMPORTANT ALGOS).pdf",
+    "modified": "2026-08-14T10:40:50+05:30"
   },
   "tree": {
     "sem_3": {
@@ -140,83 +140,91 @@
       "notes": [
         {
           "name": "dsa_Lec1.pdf",
-          "folder": "dsa",
-          "path": "sem_3/notes/dsa/dsa_Lec1.pdf",
+          "folder": "dsa/Lecture Notes",
+          "path": "sem_3/notes/dsa/Lecture Notes/dsa_Lec1.pdf",
           "size": 719315,
           "size_human": "702.5K",
           "modified": "2026-07-13T19:20:26+05:30"
         },
         {
           "name": "dsa_Lec2.pdf",
-          "folder": "dsa",
-          "path": "sem_3/notes/dsa/dsa_Lec2.pdf",
+          "folder": "dsa/Lecture Notes",
+          "path": "sem_3/notes/dsa/Lecture Notes/dsa_Lec2.pdf",
           "size": 452803,
           "size_human": "442.2K",
           "modified": "2026-07-14T19:50:34+05:30"
         },
         {
           "name": "dsa_Lec3.pdf",
-          "folder": "dsa",
-          "path": "sem_3/notes/dsa/dsa_Lec3.pdf",
+          "folder": "dsa/Lecture Notes",
+          "path": "sem_3/notes/dsa/Lecture Notes/dsa_Lec3.pdf",
           "size": 379028,
           "size_human": "370.1K",
           "modified": "2026-07-16T21:57:06+05:30"
         },
         {
           "name": "dsa_Lec4.pdf",
-          "folder": "dsa",
-          "path": "sem_3/notes/dsa/dsa_Lec4.pdf",
+          "folder": "dsa/Lecture Notes",
+          "path": "sem_3/notes/dsa/Lecture Notes/dsa_Lec4.pdf",
           "size": 571920,
           "size_human": "558.5K",
           "modified": "2026-07-20T20:59:52+05:30"
         },
         {
           "name": "dsa_Lec5_LEC6.pdf",
-          "folder": "dsa",
-          "path": "sem_3/notes/dsa/dsa_Lec5_LEC6.pdf",
+          "folder": "dsa/Lecture Notes",
+          "path": "sem_3/notes/dsa/Lecture Notes/dsa_Lec5_LEC6.pdf",
           "size": 295839,
           "size_human": "288.9K",
           "modified": "2026-07-21T20:31:52+05:30"
         },
         {
           "name": "dsa_Lec7.pdf",
-          "folder": "dsa",
-          "path": "sem_3/notes/dsa/dsa_Lec7.pdf",
+          "folder": "dsa/Lecture Notes",
+          "path": "sem_3/notes/dsa/Lecture Notes/dsa_Lec7.pdf",
           "size": 416044,
           "size_human": "406.3K",
           "modified": "2026-07-27T21:14:01+05:30"
         },
         {
           "name": "dsa_Lec8_Lec9.pdf",
-          "folder": "dsa",
-          "path": "sem_3/notes/dsa/dsa_Lec8_Lec9.pdf",
+          "folder": "dsa/Lecture Notes",
+          "path": "sem_3/notes/dsa/Lecture Notes/dsa_Lec8_Lec9.pdf",
           "size": 294506,
           "size_human": "287.6K",
           "modified": "2026-07-28T19:04:55+05:30"
         },
         {
           "name": "dsa_Lec10.pdf",
-          "folder": "dsa",
-          "path": "sem_3/notes/dsa/dsa_Lec10.pdf",
+          "folder": "dsa/Lecture Notes",
+          "path": "sem_3/notes/dsa/Lecture Notes/dsa_Lec10.pdf",
           "size": 412349,
           "size_human": "402.7K",
           "modified": "2026-08-03T20:20:48+05:30"
         },
         {
           "name": "dsa_Lec11_12.pdf",
-          "folder": "dsa",
-          "path": "sem_3/notes/dsa/dsa_Lec11_12.pdf",
+          "folder": "dsa/Lecture Notes",
+          "path": "sem_3/notes/dsa/Lecture Notes/dsa_Lec11_12.pdf",
           "size": 617058,
           "size_human": "602.6K",
           "modified": "2026-08-04T20:46:43+05:30"
         },
         {
           "name": "dsa_Lec13.pdf",
-          "folder": "dsa",
-          "path": "sem_3/notes/dsa/dsa_Lec13.pdf",
+          "folder": "dsa/Lecture Notes",
+          "path": "sem_3/notes/dsa/Lecture Notes/dsa_Lec13.pdf",
           "size": 361879,
           "size_human": "353.4K",
           "modified": "2026-08-10T20:20:27+05:30"
+        },
+        {
+          "name": "DSA M1 REV (IMPORTANT ALGOS).pdf",
+          "folder": "dsa/mid terms",
+          "path": "sem_3/notes/dsa/mid terms/DSA M1 REV (IMPORTANT ALGOS).pdf",
+          "size": 417707,
+          "size_human": "407.9K",
+          "modified": "2026-08-14T10:40:50+05:30"
         },
         {
           "name": "Lecture-1-2-Introduction-Classification-Tabulation.pdf",
