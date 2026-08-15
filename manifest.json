@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-14T10:41:01+05:30",
+  "generated_at": "2026-08-15T18:24:15+05:30",
   "recent_file": {
-    "path": "sem_3/notes/dsa/mid terms/DSA M1 REV (IMPORTANT ALGOS).pdf",
-    "name": "DSA M1 REV (IMPORTANT ALGOS).pdf",
-    "modified": "2026-08-14T10:40:50+05:30"
+    "path": "sem_3/notes/re/mid terms/M1 REV NOTES.pdf",
+    "name": "M1 REV NOTES.pdf",
+    "modified": "2026-08-15T18:23:58+05:30"
   },
   "tree": {
     "sem_3": {
@@ -265,6 +265,14 @@
           "size": 334920,
           "size_human": "327.1K",
           "modified": "2026-08-12T22:22:54+05:30"
+        },
+        {
+          "name": "M1 REV NOTES.pdf",
+          "folder": "re/mid terms",
+          "path": "sem_3/notes/re/mid terms/M1 REV NOTES.pdf",
+          "size": 241261,
+          "size_human": "235.6K",
+          "modified": "2026-08-15T18:23:58+05:30"
         }
       ]
     }
