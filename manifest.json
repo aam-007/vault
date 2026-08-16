@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-15T18:26:59+05:30",
+  "generated_at": "2026-08-16T12:15:12+05:30",
   "recent_file": {
-    "path": "sem_3/notes/re/mid terms/re_ M1 REV NOTES.pdf",
-    "name": "re_ M1 REV NOTES.pdf",
-    "modified": "2026-08-15T18:26:28+05:30"
+    "path": "sem_3/assignments/MU/MU_S046_PRAC4.ipynb",
+    "name": "MU_S046_PRAC4.ipynb",
+    "modified": "2026-08-16T12:14:07+05:30"
   },
   "tree": {
     "sem_3": {
@@ -49,6 +49,14 @@
           "modified": "2026-07-23T17:42:02+05:30"
         },
         {
+          "name": "MU_S046_PRAC4.ipynb",
+          "folder": "MU",
+          "path": "sem_3/assignments/MU/MU_S046_PRAC4.ipynb",
+          "size": 4092,
+          "size_human": "4.0K",
+          "modified": "2026-08-16T12:14:07+05:30"
+        },
+        {
           "name": "S046_EXP_1_Pandas_and_Numpy_Exercise.ipynb",
           "folder": "MU",
           "path": "sem_3/assignments/MU/S046_EXP_1_Pandas_and_Numpy_Exercise.ipynb",
@@ -79,6 +87,30 @@
           "size": 6079644,
           "size_human": "5.8M",
           "modified": "2026-08-05T21:54:55+05:30"
+        },
+        {
+          "name": "S046_MU_Assignment_1.pdf",
+          "folder": "MU/written_ass",
+          "path": "sem_3/assignments/MU/written_ass/S046_MU_Assignment_1.pdf",
+          "size": 11913495,
+          "size_human": "11.4M",
+          "modified": "2026-08-16T12:10:15+05:30"
+        },
+        {
+          "name": "S046_MU_Assignment_2.pdf",
+          "folder": "MU/written_ass",
+          "path": "sem_3/assignments/MU/written_ass/S046_MU_Assignment_2.pdf",
+          "size": 15047279,
+          "size_human": "14.4M",
+          "modified": "2026-08-16T12:10:37+05:30"
+        },
+        {
+          "name": "S046_MU_Assignment_3.pdf",
+          "folder": "MU/written_ass",
+          "path": "sem_3/assignments/MU/written_ass/S046_MU_Assignment_3.pdf",
+          "size": 4955418,
+          "size_human": "4.7M",
+          "modified": "2026-08-16T12:11:10+05:30"
         },
         {
           "name": "LAB2.docx",
