@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-16T12:15:12+05:30",
+  "generated_at": "2026-08-18T16:05:37+05:30",
   "recent_file": {
-    "path": "sem_3/assignments/MU/MU_S046_PRAC4.ipynb",
-    "name": "MU_S046_PRAC4.ipynb",
-    "modified": "2026-08-16T12:14:07+05:30"
+    "path": "sem_3/notes/mu/mid terms/m1 rev.pdf",
+    "name": "m1 rev.pdf",
+    "modified": "2026-08-18T16:05:18+05:30"
   },
   "tree": {
     "sem_3": {
@@ -273,6 +273,14 @@
           "size": 519366,
           "size_human": "507.2K",
           "modified": "2026-08-09T20:20:33+05:30"
+        },
+        {
+          "name": "m1 rev.pdf",
+          "folder": "mu/mid terms",
+          "path": "sem_3/notes/mu/mid terms/m1 rev.pdf",
+          "size": 208281,
+          "size_human": "203.4K",
+          "modified": "2026-08-18T16:05:18+05:30"
         },
         {
           "name": "oop_Lec 1_and_Lec2.pdf",
