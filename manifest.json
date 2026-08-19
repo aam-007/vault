@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-18T16:47:52+05:30",
+  "generated_at": "2026-08-19T21:01:50+05:30",
   "recent_file": {
-    "path": "sem_3/notes/mu/mid terms/m1 sample ques.pdf",
-    "name": "m1 sample ques.pdf",
-    "modified": "2026-08-18T16:19:51+05:30"
+    "path": "sem_3/notes/mae/mid terms rev/cost sheet (m1 rev).pdf",
+    "name": "cost sheet (m1 rev).pdf",
+    "modified": "2026-08-19T21:00:16+05:30"
   },
   "tree": {
     "sem_3": {
@@ -257,6 +257,14 @@
           "size": 417707,
           "size_human": "407.9K",
           "modified": "2026-08-14T10:40:50+05:30"
+        },
+        {
+          "name": "cost sheet (m1 rev).pdf",
+          "folder": "mae/mid terms rev",
+          "path": "sem_3/notes/mae/mid terms rev/cost sheet (m1 rev).pdf",
+          "size": 196527,
+          "size_human": "191.9K",
+          "modified": "2026-08-19T21:00:16+05:30"
         },
         {
           "name": "Lecture-1-2-Introduction-Classification-Tabulation.pdf",
