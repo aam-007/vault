@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-01T21:08:20+05:30",
+  "generated_at": "2026-09-01T21:19:30+05:30",
   "recent_file": {
-    "path": "sem_3/assignments/SDA/ProductSalesLookup_Lab6.xlsx",
-    "name": "ProductSalesLookup_Lab6.xlsx",
-    "modified": "2026-09-01T21:07:07+05:30"
+    "path": "sem_3/assignments/IDSA/IDSA_ASSIGNMENT_1_S046.pdf",
+    "name": "IDSA_ASSIGNMENT_1_S046.pdf",
+    "modified": "2026-09-01T21:16:10+05:30"
   },
   "tree": {
     "sem_3": {
@@ -31,6 +31,14 @@
           "size": 67402,
           "size_human": "65.8K",
           "modified": "2026-08-09T19:52:56+05:30"
+        },
+        {
+          "name": "IDSA_ASSIGNMENT_1_S046.pdf",
+          "folder": "IDSA",
+          "path": "sem_3/assignments/IDSA/IDSA_ASSIGNMENT_1_S046.pdf",
+          "size": 23175970,
+          "size_human": "22.1M",
+          "modified": "2026-09-01T21:16:10+05:30"
         },
         {
           "name": "REL_ppt.pdf",
