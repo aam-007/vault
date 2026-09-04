@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-01T21:19:30+05:30",
+  "generated_at": "2026-09-04T19:12:24+05:30",
   "recent_file": {
-    "path": "sem_3/assignments/IDSA/IDSA_ASSIGNMENT_1_S046.pdf",
-    "name": "IDSA_ASSIGNMENT_1_S046.pdf",
-    "modified": "2026-09-01T21:16:10+05:30"
+    "path": "sem_3/assignments/SDA/S046 Lab 6.xlsx",
+    "name": "S046 Lab 6.xlsx",
+    "modified": "2026-09-04T19:06:46+05:30"
   },
   "tree": {
     "sem_3": {
@@ -185,12 +185,12 @@
           "modified": "2026-08-26T11:19:58+05:30"
         },
         {
-          "name": "ProductSalesLookup_Lab6.xlsx",
+          "name": "S046 Lab 6.xlsx",
           "folder": "SDA",
-          "path": "sem_3/assignments/SDA/ProductSalesLookup_Lab6.xlsx",
-          "size": 23862,
-          "size_human": "23.3K",
-          "modified": "2026-09-01T21:07:07+05:30"
+          "path": "sem_3/assignments/SDA/S046 Lab 6.xlsx",
+          "size": 19852,
+          "size_human": "19.4K",
+          "modified": "2026-09-04T19:06:46+05:30"
         }
       ],
       "notes": [
