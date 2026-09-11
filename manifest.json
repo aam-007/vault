@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-06T11:12:21+05:30",
+  "generated_at": "2026-09-11T17:26:40+05:30",
   "recent_file": {
-    "path": "sem_3/assignments/SDA/S046_Lab_6.xlsx",
-    "name": "S046_Lab_6.xlsx",
-    "modified": "2026-09-06T11:11:22+05:30"
+    "path": "sem_3/notes/dm/unit_3_notes.pdf",
+    "name": "unit_3_notes.pdf",
+    "modified": "2026-09-11T17:23:54+05:30"
   },
   "tree": {
     "sem_3": {
@@ -194,6 +194,22 @@
         }
       ],
       "notes": [
+        {
+          "name": "unit_2_notes.pdf",
+          "folder": "dm",
+          "path": "sem_3/notes/dm/unit_2_notes.pdf",
+          "size": 437102,
+          "size_human": "426.9K",
+          "modified": "2026-09-11T17:23:44+05:30"
+        },
+        {
+          "name": "unit_3_notes.pdf",
+          "folder": "dm",
+          "path": "sem_3/notes/dm/unit_3_notes.pdf",
+          "size": 437450,
+          "size_human": "427.2K",
+          "modified": "2026-09-11T17:23:54+05:30"
+        },
         {
           "name": "dsa_Lec1.pdf",
           "folder": "dsa/Lecture Notes",
