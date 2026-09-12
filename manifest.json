@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-11T22:13:19+05:30",
+  "generated_at": "2026-09-12T12:58:42+05:30",
   "recent_file": {
-    "path": "sem_3/notes/dm/unit_3_notes.pdf",
-    "name": "unit_3_notes.pdf",
-    "modified": "2026-09-11T22:12:44+05:30"
+    "path": "sem_3/assignments/DSA/ica_ass/S046_DSA.pdf",
+    "name": "S046_DSA.pdf",
+    "modified": "2026-09-12T12:57:17+05:30"
   },
   "tree": {
     "sem_3": {
@@ -31,6 +31,14 @@
           "size": 67402,
           "size_human": "65.8K",
           "modified": "2026-08-09T19:52:56+05:30"
+        },
+        {
+          "name": "S046_DSA.pdf",
+          "folder": "DSA/ica_ass",
+          "path": "sem_3/assignments/DSA/ica_ass/S046_DSA.pdf",
+          "size": 13471220,
+          "size_human": "12.8M",
+          "modified": "2026-09-12T12:57:17+05:30"
         },
         {
           "name": "IDSA_ASSIGNMENT_1_S046.pdf",
