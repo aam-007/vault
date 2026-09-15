@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-14T22:28:45+05:30",
+  "generated_at": "2026-09-15T21:48:16+05:30",
   "recent_file": {
-    "path": "sem_3/notes/dsa/non_linear_data_structures_II.pdf",
-    "name": "non_linear_data_structures_II.pdf",
-    "modified": "2026-09-14T22:27:58+05:30"
+    "path": "sem_3/assignments/DSA/lab_ass/S046_assignment1_LinkedList.c",
+    "name": "S046_assignment1_LinkedList.c",
+    "modified": "2026-09-15T21:47:57+05:30"
   },
   "tree": {
     "sem_3": {
@@ -39,6 +39,14 @@
           "size": 13471220,
           "size_human": "12.8M",
           "modified": "2026-09-12T12:57:17+05:30"
+        },
+        {
+          "name": "S046_assignment1_LinkedList.c",
+          "folder": "DSA/lab_ass",
+          "path": "sem_3/assignments/DSA/lab_ass/S046_assignment1_LinkedList.c",
+          "size": 7585,
+          "size_human": "7.4K",
+          "modified": "2026-09-15T21:47:57+05:30"
         },
         {
           "name": "IDSA_ASSIGNMENT_1_S046.pdf",
