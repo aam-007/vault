@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-02T11:32:03+05:30",
+  "generated_at": "2026-10-02T11:34:43+05:30",
   "recent_file": {
-    "path": "sem_3/notes/mu/unit 7.pdf",
-    "name": "unit 7.pdf",
+    "path": "sem_3/notes/mu/unit7.pdf",
+    "name": "unit7.pdf",
     "modified": "2026-10-02T11:14:59+05:30"
   },
   "tree": {
@@ -291,9 +291,9 @@
           "modified": "2026-09-05T11:06:29+05:30"
         },
         {
-          "name": "unit 7.pdf",
+          "name": "unit7.pdf",
           "folder": "mu",
-          "path": "sem_3/notes/mu/unit 7.pdf",
+          "path": "sem_3/notes/mu/unit7.pdf",
           "size": 573874,
           "size_human": "560.4K",
           "modified": "2026-10-02T11:14:59+05:30"
