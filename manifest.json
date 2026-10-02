@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-02T11:34:43+05:30",
+  "generated_at": "2026-10-02T22:00:12+05:30",
   "recent_file": {
-    "path": "sem_3/notes/mu/unit7.pdf",
-    "name": "unit7.pdf",
-    "modified": "2026-10-02T11:14:59+05:30"
+    "path": "sem_3/notes/dsa/mid terms/Midterms 2 Revision.pdf",
+    "name": "Midterms 2 Revision.pdf",
+    "modified": "2026-10-02T21:16:54+05:30"
   },
   "tree": {
     "sem_3": {
@@ -249,6 +249,14 @@
           "size": 417707,
           "size_human": "407.9K",
           "modified": "2026-08-14T10:40:50+05:30"
+        },
+        {
+          "name": "Midterms 2 Revision.pdf",
+          "folder": "dsa/mid terms",
+          "path": "sem_3/notes/dsa/mid terms/Midterms 2 Revision.pdf",
+          "size": 524243,
+          "size_human": "512.0K",
+          "modified": "2026-10-02T21:16:54+05:30"
         },
         {
           "name": "cost sheet (m1 rev).pdf",
