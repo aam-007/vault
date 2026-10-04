@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-02T22:00:12+05:30",
+  "generated_at": "2026-10-04T10:53:44+05:30",
   "recent_file": {
-    "path": "sem_3/notes/dsa/mid terms/Midterms 2 Revision.pdf",
-    "name": "Midterms 2 Revision.pdf",
-    "modified": "2026-10-02T21:16:54+05:30"
+    "path": "sem_3/notes/IDSA/M2_IDSA_Exam_Revision.pdf",
+    "name": "M2_IDSA_Exam_Revision.pdf",
+    "modified": "2026-10-04T10:53:26+05:30"
   },
   "tree": {
     "sem_3": {
@@ -218,6 +218,14 @@
         }
       ],
       "notes": [
+        {
+          "name": "M2_IDSA_Exam_Revision.pdf",
+          "folder": "IDSA",
+          "path": "sem_3/notes/IDSA/M2_IDSA_Exam_Revision.pdf",
+          "size": 411697,
+          "size_human": "402.0K",
+          "modified": "2026-10-04T10:53:26+05:30"
+        },
         {
           "name": "unit_2_notes.pdf",
           "folder": "dm",
