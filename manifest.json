@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-04T19:22:56+05:30",
+  "generated_at": "2026-10-06T17:39:21+05:30",
   "recent_file": {
-    "path": "sem_3/notes/IDSA/M2_IDSA_Exam_Revision.pdf",
-    "name": "M2_IDSA_Exam_Revision.pdf",
-    "modified": "2026-10-04T19:19:58+05:30"
+    "path": "sem_3/notes/dm/mid term/Discrete_Mathematics_Midterm_2_Revision.pdf",
+    "name": "Discrete_Mathematics_Midterm_2_Revision.pdf",
+    "modified": "2026-10-06T17:39:10+05:30"
   },
   "tree": {
     "sem_3": {
@@ -219,6 +219,14 @@
       ],
       "notes": [
         {
+          "name": "M2_IDSA_Exam_Question_Bank.pdf",
+          "folder": "IDSA",
+          "path": "sem_3/notes/IDSA/M2_IDSA_Exam_Question_Bank.pdf",
+          "size": 331185,
+          "size_human": "323.4K",
+          "modified": "2026-10-05T01:00:36+05:30"
+        },
+        {
           "name": "M2_IDSA_Exam_Revision.pdf",
           "folder": "IDSA",
           "path": "sem_3/notes/IDSA/M2_IDSA_Exam_Revision.pdf",
@@ -241,6 +249,14 @@
           "size": 515662,
           "size_human": "503.6K",
           "modified": "2026-09-11T22:12:44+05:30"
+        },
+        {
+          "name": "Discrete_Mathematics_Midterm_2_Revision.pdf",
+          "folder": "dm/mid term",
+          "path": "sem_3/notes/dm/mid term/Discrete_Mathematics_Midterm_2_Revision.pdf",
+          "size": 410581,
+          "size_human": "401.0K",
+          "modified": "2026-10-06T17:39:10+05:30"
         },
         {
           "name": "non_linear_data_structures_II.pdf",
