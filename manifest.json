@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-06T18:20:10+05:30",
+  "generated_at": "2026-10-06T19:38:30+05:30",
   "recent_file": {
-    "path": "sem_3/notes/dm/mid term/Discrete_Mathematics_Midterm_2_Revision.pdf",
-    "name": "Discrete_Mathematics_Midterm_2_Revision.pdf",
-    "modified": "2026-10-06T18:20:08+05:30"
+    "path": "sem_3/notes/mu/mid terms/Statistics_Midterm_Revision.pdf",
+    "name": "Statistics_Midterm_Revision.pdf",
+    "modified": "2026-10-06T18:30:54+05:30"
   },
   "tree": {
     "sem_3": {
@@ -345,6 +345,14 @@
           "size": 503488,
           "size_human": "491.7K",
           "modified": "2026-08-18T16:19:51+05:30"
+        },
+        {
+          "name": "Statistics_Midterm_Revision.pdf",
+          "folder": "mu/mid terms",
+          "path": "sem_3/notes/mu/mid terms/Statistics_Midterm_Revision.pdf",
+          "size": 443298,
+          "size_human": "432.9K",
+          "modified": "2026-10-06T18:30:54+05:30"
         },
         {
           "name": "oop_Lec 1_and_Lec2.pdf",
