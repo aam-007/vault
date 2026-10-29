@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-26T23:58:47+05:30",
+  "generated_at": "2026-10-29T18:00:15+05:30",
   "recent_file": {
-    "path": "sem_3/notes/mu/Unit_3_Statistics_Exam_Guide.pdf",
-    "name": "Unit_3_Statistics_Exam_Guide.pdf",
-    "modified": "2026-10-26T23:41:36+05:30"
+    "path": "sem_3/notes/dsa/DSA_Detailed_Worked_Solutions (1).pdf",
+    "name": "DSA_Detailed_Worked_Solutions (1).pdf",
+    "modified": "2026-10-29T11:51:20+05:30"
   },
   "tree": {
     "sem_3": {
@@ -257,6 +257,14 @@
           "size": 423590,
           "size_human": "413.7K",
           "modified": "2026-10-06T18:20:08+05:30"
+        },
+        {
+          "name": "DSA_Detailed_Worked_Solutions (1).pdf",
+          "folder": "dsa",
+          "path": "sem_3/notes/dsa/DSA_Detailed_Worked_Solutions (1).pdf",
+          "size": 667425,
+          "size_human": "651.8K",
+          "modified": "2026-10-29T11:51:20+05:30"
         },
         {
           "name": "non_linear_data_structures_II.pdf",
