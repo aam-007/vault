@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-29T18:00:15+05:30",
+  "generated_at": "2026-10-29T21:51:21+05:30",
   "recent_file": {
-    "path": "sem_3/notes/dsa/DSA_Detailed_Worked_Solutions (1).pdf",
-    "name": "DSA_Detailed_Worked_Solutions (1).pdf",
-    "modified": "2026-10-29T11:51:20+05:30"
+    "path": "sem_3/pyqs/oop/OBJECT_ORIENTED_PROGRAMMING_B_TECH_(COMPUTER)___2019-20_FINAL_EXAM_qO8uYMTY15.pdf",
+    "name": "OBJECT_ORIENTED_PROGRAMMING_B_TECH_(COMPUTER)___2019-20_FINAL_EXAM_qO8uYMTY15.pdf",
+    "modified": "2026-10-29T21:25:16+05:30"
   },
   "tree": {
     "sem_3": {
@@ -401,6 +401,120 @@
           "size": 255095,
           "size_human": "249.1K",
           "modified": "2026-08-15T18:26:28+05:30"
+        }
+      ],
+      "pyqs": [
+        {
+          "name": "Dicrete_Mathematics_RNbOiCuabL.pdf",
+          "folder": "dm",
+          "path": "sem_3/pyqs/dm/Dicrete_Mathematics_RNbOiCuabL.pdf",
+          "size": 2003660,
+          "size_human": "1.9M",
+          "modified": "2026-10-29T18:05:33+05:30"
+        },
+        {
+          "name": "Discrete_Mathematics_2022-23_Final_exam_9RXdNGZ10V.pdf",
+          "folder": "dm",
+          "path": "sem_3/pyqs/dm/Discrete_Mathematics_2022-23_Final_exam_9RXdNGZ10V.pdf",
+          "size": 2071042,
+          "size_human": "2.0M",
+          "modified": "2026-10-29T18:05:38+05:30"
+        },
+        {
+          "name": "Discrete_Mathematics___Final___Re-exam_2022-23_8f1jbzGDbF.pdf",
+          "folder": "dm",
+          "path": "sem_3/pyqs/dm/Discrete_Mathematics___Final___Re-exam_2022-23_8f1jbzGDbF.pdf",
+          "size": 1747277,
+          "size_human": "1.7M",
+          "modified": "2026-10-29T18:05:34+05:30"
+        },
+        {
+          "name": "Discrete_Mathematics___Re-exam_2021-22_2022-23_NKRmVpFOCY.pdf",
+          "folder": "dm",
+          "path": "sem_3/pyqs/dm/Discrete_Mathematics___Re-exam_2021-22_2022-23_NKRmVpFOCY.pdf",
+          "size": 1841164,
+          "size_human": "1.8M",
+          "modified": "2026-10-29T18:05:36+05:30"
+        },
+        {
+          "name": "Discrete_Mathematics__Re-exam_2022-23_u6WEQbmeHu.pdf",
+          "folder": "dm",
+          "path": "sem_3/pyqs/dm/Discrete_Mathematics__Re-exam_2022-23_u6WEQbmeHu.pdf",
+          "size": 2308035,
+          "size_human": "2.2M",
+          "modified": "2026-10-29T18:05:37+05:30"
+        },
+        {
+          "name": "Discrete_mathematics_Final_exam_2019-20_.pdf",
+          "folder": "dm",
+          "path": "sem_3/pyqs/dm/Discrete_mathematics_Final_exam_2019-20_.pdf",
+          "size": 1611050,
+          "size_human": "1.5M",
+          "modified": "2026-10-29T18:05:39+05:30"
+        },
+        {
+          "name": "Data_Structure_and_Algorithms___Final_2023-2024_RGKfwXuX6e (1).pdf",
+          "folder": "dsa",
+          "path": "sem_3/pyqs/dsa/Data_Structure_and_Algorithms___Final_2023-2024_RGKfwXuX6e (1).pdf",
+          "size": 2134732,
+          "size_human": "2.0M",
+          "modified": "2026-10-28T16:40:59+05:30"
+        },
+        {
+          "name": "Data_Structure_and_Algorithms___Final_2023-2024_RGKfwXuX6e.pdf",
+          "folder": "dsa",
+          "path": "sem_3/pyqs/dsa/Data_Structure_and_Algorithms___Final_2023-2024_RGKfwXuX6e.pdf",
+          "size": 2134732,
+          "size_human": "2.0M",
+          "modified": "2026-10-28T16:40:51+05:30"
+        },
+        {
+          "name": "Data_Structure_and_Algorithms__Re-exam_2023-24_qajchyHM1p.pdf",
+          "folder": "dsa",
+          "path": "sem_3/pyqs/dsa/Data_Structure_and_Algorithms__Re-exam_2023-24_qajchyHM1p.pdf",
+          "size": 1871765,
+          "size_human": "1.8M",
+          "modified": "2026-10-28T16:40:24+05:30"
+        },
+        {
+          "name": "Data_Structures_and_Algorithms_fzSe3HYo8k.pdf",
+          "folder": "dsa",
+          "path": "sem_3/pyqs/dsa/Data_Structures_and_Algorithms_fzSe3HYo8k.pdf",
+          "size": 1278055,
+          "size_human": "1.2M",
+          "modified": "2026-10-28T16:39:43+05:30"
+        },
+        {
+          "name": "Management_Accounting_for_Engineer__2nd_Year__Sem_III__Year_2022-23_Final_Exam__2021-22_Re_Exam_wJxtUKiPgb.pdf",
+          "folder": "mae",
+          "path": "sem_3/pyqs/mae/Management_Accounting_for_Engineer__2nd_Year__Sem_III__Year_2022-23_Final_Exam__2021-22_Re_Exam_wJxtUKiPgb.pdf",
+          "size": 2657076,
+          "size_human": "2.5M",
+          "modified": "2026-10-29T21:25:12+05:30"
+        },
+        {
+          "name": "Management_Accounting_for_engineers__All_Streams__2nd__Year__Sem-III__Year_2022-23__Re-Exam_JpZvC5qz53.pdf",
+          "folder": "mae",
+          "path": "sem_3/pyqs/mae/Management_Accounting_for_engineers__All_Streams__2nd__Year__Sem-III__Year_2022-23__Re-Exam_JpZvC5qz53.pdf",
+          "size": 2437426,
+          "size_human": "2.3M",
+          "modified": "2026-10-29T21:25:13+05:30"
+        },
+        {
+          "name": "Management_Accounting_for_Engineers__Sem-III__Batch_2022-23_Re_Exam_D0nPepHtk1.pdf",
+          "folder": "mae",
+          "path": "sem_3/pyqs/mae/Management_Accounting_for_Engineers__Sem-III__Batch_2022-23_Re_Exam_D0nPepHtk1.pdf",
+          "size": 1902820,
+          "size_human": "1.8M",
+          "modified": "2026-10-29T21:25:14+05:30"
+        },
+        {
+          "name": "OBJECT_ORIENTED_PROGRAMMING_B_TECH_(COMPUTER)___2019-20_FINAL_EXAM_qO8uYMTY15.pdf",
+          "folder": "oop",
+          "path": "sem_3/pyqs/oop/OBJECT_ORIENTED_PROGRAMMING_B_TECH_(COMPUTER)___2019-20_FINAL_EXAM_qO8uYMTY15.pdf",
+          "size": 972984,
+          "size_human": "950.2K",
+          "modified": "2026-10-29T21:25:16+05:30"
         }
       ]
     }
