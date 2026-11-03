@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-02T22:39:19+05:30",
+  "generated_at": "2026-11-03T21:00:03+05:30",
   "recent_file": {
-    "path": "sem_3/notes/mu/Managing_Uncertainty_Formula_Guide.pdf",
-    "name": "Managing_Uncertainty_Formula_Guide.pdf",
-    "modified": "2026-11-02T21:55:15+05:30"
+    "path": "sem_3/notes/IDSA/Laplace_Assignment5_Study_Guide.pdf",
+    "name": "Laplace_Assignment5_Study_Guide.pdf",
+    "modified": "2026-11-03T13:32:22+05:30"
   },
   "tree": {
     "sem_3": {
@@ -218,6 +218,14 @@
         }
       ],
       "notes": [
+        {
+          "name": "Laplace_Assignment5_Study_Guide.pdf",
+          "folder": "IDSA",
+          "path": "sem_3/notes/IDSA/Laplace_Assignment5_Study_Guide.pdf",
+          "size": 211845,
+          "size_human": "206.9K",
+          "modified": "2026-11-03T13:32:22+05:30"
+        },
         {
           "name": "M2_IDSA_Exam_Question_Bank.pdf",
           "folder": "IDSA",
