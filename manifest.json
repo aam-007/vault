@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-03T21:00:03+05:30",
+  "generated_at": "2026-11-04T15:37:57+05:30",
   "recent_file": {
-    "path": "sem_3/notes/IDSA/Laplace_Assignment5_Study_Guide.pdf",
-    "name": "Laplace_Assignment5_Study_Guide.pdf",
-    "modified": "2026-11-03T13:32:22+05:30"
+    "path": "sem_3/pyqs/dm/solutions.pdf",
+    "name": "solutions.pdf",
+    "modified": "2026-11-04T01:27:22+05:30"
   },
   "tree": {
     "sem_3": {
@@ -475,6 +475,14 @@
           "size": 1611050,
           "size_human": "1.5M",
           "modified": "2026-11-01T12:19:06+05:30"
+        },
+        {
+          "name": "solutions.pdf",
+          "folder": "dm",
+          "path": "sem_3/pyqs/dm/solutions.pdf",
+          "size": 17076696,
+          "size_human": "16.3M",
+          "modified": "2026-11-04T01:27:22+05:30"
         },
         {
           "name": "Data_Structure_and_Algorithms___Final_2023-2024_RGKfwXuX6e (1).pdf",
