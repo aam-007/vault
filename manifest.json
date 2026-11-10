@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-05T19:08:09+05:30",
+  "generated_at": "2026-11-10T22:56:23+05:30",
   "recent_file": {
-    "path": "sem_3/pyqs/res/RES PYQ Numerical Solutions.pdf",
-    "name": "RES PYQ Numerical Solutions.pdf",
-    "modified": "2026-11-05T19:06:24+05:30"
+    "path": "sem_3/pyqs/res/Renewable_PYQ.pdf",
+    "name": "Renewable_PYQ.pdf",
+    "modified": "2026-11-10T22:23:53+05:30"
   },
   "tree": {
     "sem_3": {
@@ -14,7 +14,7 @@
           "path": "sem_3/assignments/DM/unit 1/Unit 1_Sets Relations and Functions_Tutorials.pdf",
           "size": 489910,
           "size_human": "478.4K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "S046_DSA_Lab1.docx",
@@ -22,7 +22,7 @@
           "path": "sem_3/assignments/DSA/S046_DSA_Lab1.docx",
           "size": 202293,
           "size_human": "197.6K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "S046_EXP2_DSA.docx",
@@ -30,7 +30,7 @@
           "path": "sem_3/assignments/DSA/S046_EXP2_DSA.docx",
           "size": 67402,
           "size_human": "65.8K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "S046_DSA.pdf",
@@ -38,15 +38,15 @@
           "path": "sem_3/assignments/DSA/ica_ass/S046_DSA.pdf",
           "size": 13471220,
           "size_human": "12.8M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "S046_assignment1_LinkedList.c",
           "folder": "DSA/lab_ass",
           "path": "sem_3/assignments/DSA/lab_ass/S046_assignment1_LinkedList.c",
-          "size": 7937,
-          "size_human": "7.8K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "size": 7585,
+          "size_human": "7.4K",
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "IDSA_ASSIGNMENT_1_S046.pdf",
@@ -54,7 +54,7 @@
           "path": "sem_3/assignments/IDSA/IDSA_ASSIGNMENT_1_S046.pdf",
           "size": 23175970,
           "size_human": "22.1M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "REL_ppt.pdf",
@@ -62,7 +62,7 @@
           "path": "sem_3/assignments/MAE/REL_ppt.pdf",
           "size": 1391672,
           "size_human": "1.3M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "REL_ppt.pptx",
@@ -70,39 +70,39 @@
           "path": "sem_3/assignments/MAE/REL_ppt.pptx",
           "size": 2943272,
           "size_human": "2.8M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "MU_S046_PRAC4.ipynb",
           "folder": "MU",
           "path": "sem_3/assignments/MU/MU_S046_PRAC4.ipynb",
-          "size": 4246,
-          "size_human": "4.1K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "size": 4092,
+          "size_human": "4.0K",
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "S046_EXP_1_Pandas_and_Numpy_Exercise.ipynb",
           "folder": "MU",
           "path": "sem_3/assignments/MU/S046_EXP_1_Pandas_and_Numpy_Exercise.ipynb",
-          "size": 21247,
-          "size_human": "20.7K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "size": 20197,
+          "size_human": "19.7K",
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "S046_LAB3_MU.ipynb",
           "folder": "MU",
           "path": "sem_3/assignments/MU/S046_LAB3_MU.ipynb",
-          "size": 105485,
-          "size_human": "103.0K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "size": 104440,
+          "size_human": "102.0K",
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "S046_prac2_MU.ipynb",
           "folder": "MU",
           "path": "sem_3/assignments/MU/S046_prac2_MU.ipynb",
-          "size": 3637,
-          "size_human": "3.6K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "size": 3488,
+          "size_human": "3.4K",
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "S030_MU_Assignment_1.pdf",
@@ -110,7 +110,7 @@
           "path": "sem_3/assignments/MU/written_ass/S030_MU_Assignment_1.pdf",
           "size": 6079644,
           "size_human": "5.8M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "S046_MU_Assignment_1.pdf",
@@ -118,7 +118,7 @@
           "path": "sem_3/assignments/MU/written_ass/S046_MU_Assignment_1.pdf",
           "size": 11913495,
           "size_human": "11.4M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "S046_MU_Assignment_2.pdf",
@@ -126,7 +126,7 @@
           "path": "sem_3/assignments/MU/written_ass/S046_MU_Assignment_2.pdf",
           "size": 15047279,
           "size_human": "14.4M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "S046_MU_Assignment_3.pdf",
@@ -134,7 +134,7 @@
           "path": "sem_3/assignments/MU/written_ass/S046_MU_Assignment_3.pdf",
           "size": 4955418,
           "size_human": "4.7M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "LAB2.docx",
@@ -142,7 +142,7 @@
           "path": "sem_3/assignments/OOP/LAB2.docx",
           "size": 203950,
           "size_human": "199.2K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "PRAC 2.pdf",
@@ -150,15 +150,15 @@
           "path": "sem_3/assignments/OOP/PRAC 2.pdf",
           "size": 297303,
           "size_human": "290.3K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "where is LAB1 (question mark).txt",
           "folder": "OOP",
           "path": "sem_3/assignments/OOP/where is LAB1 (question mark).txt",
-          "size": 74,
-          "size_human": "74B",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "size": 68,
+          "size_human": "68B",
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "ADITYA_S046_LAB1.xlsx",
@@ -166,7 +166,7 @@
           "path": "sem_3/assignments/SDA/ADITYA_S046_LAB1.xlsx",
           "size": 19280,
           "size_human": "18.8K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "Aditya_S046_LAB2.xlsx",
@@ -174,7 +174,7 @@
           "path": "sem_3/assignments/SDA/Aditya_S046_LAB2.xlsx",
           "size": 26849,
           "size_human": "26.2K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "Aditya_S046_LAB3.xlsx",
@@ -182,7 +182,7 @@
           "path": "sem_3/assignments/SDA/Aditya_S046_LAB3.xlsx",
           "size": 31811,
           "size_human": "31.1K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "CustomerCleanup_Chayan_Lab4.xlsx",
@@ -190,7 +190,7 @@
           "path": "sem_3/assignments/SDA/CustomerCleanup_Chayan_Lab4.xlsx",
           "size": 25993,
           "size_human": "25.4K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "LAB_7_RegionalPivotAnalysis_Aditya_Mishra_S046.xlsx",
@@ -198,7 +198,7 @@
           "path": "sem_3/assignments/SDA/LAB_7_RegionalPivotAnalysis_Aditya_Mishra_S046.xlsx",
           "size": 87610,
           "size_human": "85.6K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "OnBoardingForm_AdityaMishra_Lab5.xlsx",
@@ -206,7 +206,7 @@
           "path": "sem_3/assignments/SDA/OnBoardingForm_AdityaMishra_Lab5.xlsx",
           "size": 13589,
           "size_human": "13.3K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "S046_Lab_6.xlsx",
@@ -214,7 +214,7 @@
           "path": "sem_3/assignments/SDA/S046_Lab_6.xlsx",
           "size": 18335,
           "size_human": "17.9K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         }
       ],
       "notes": [
@@ -224,7 +224,7 @@
           "path": "sem_3/notes/IDSA/Laplace_Assignment5_Study_Guide.pdf",
           "size": 211845,
           "size_human": "206.9K",
-          "modified": "2026-11-03T13:32:22+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "M2_IDSA_Exam_Question_Bank.pdf",
@@ -232,7 +232,7 @@
           "path": "sem_3/notes/IDSA/M2_IDSA_Exam_Question_Bank.pdf",
           "size": 331185,
           "size_human": "323.4K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "M2_IDSA_Exam_Revision.pdf",
@@ -240,7 +240,7 @@
           "path": "sem_3/notes/IDSA/M2_IDSA_Exam_Revision.pdf",
           "size": 459904,
           "size_human": "449.1K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "unit_2_notes.pdf",
@@ -248,7 +248,7 @@
           "path": "sem_3/notes/dm/unit_2_notes.pdf",
           "size": 496412,
           "size_human": "484.8K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "unit_3_notes.pdf",
@@ -256,7 +256,7 @@
           "path": "sem_3/notes/dm/unit_3_notes.pdf",
           "size": 515662,
           "size_human": "503.6K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "Discrete_Mathematics_Midterm_2_Revision.pdf",
@@ -264,7 +264,7 @@
           "path": "sem_3/notes/dm/mid term/Discrete_Mathematics_Midterm_2_Revision.pdf",
           "size": 423590,
           "size_human": "413.7K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "DSA_Detailed_Worked_Solutions (1).pdf",
@@ -272,7 +272,7 @@
           "path": "sem_3/notes/dsa/DSA_Detailed_Worked_Solutions (1).pdf",
           "size": 667425,
           "size_human": "651.8K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "non_linear_data_structures_II.pdf",
@@ -280,7 +280,7 @@
           "path": "sem_3/notes/dsa/non_linear_data_structures_II.pdf",
           "size": 660849,
           "size_human": "645.4K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "DSA M1 REV (IMPORTANT ALGOS).pdf",
@@ -288,7 +288,7 @@
           "path": "sem_3/notes/dsa/mid terms/DSA M1 REV (IMPORTANT ALGOS).pdf",
           "size": 417707,
           "size_human": "407.9K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "Midterms 2 Revision.pdf",
@@ -296,7 +296,7 @@
           "path": "sem_3/notes/dsa/mid terms/Midterms 2 Revision.pdf",
           "size": 524243,
           "size_human": "512.0K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "cost sheet (m1 rev).pdf",
@@ -304,7 +304,7 @@
           "path": "sem_3/notes/mae/mid terms rev/cost sheet (m1 rev).pdf",
           "size": 196527,
           "size_human": "191.9K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "m1 theory rev.pdf",
@@ -312,7 +312,7 @@
           "path": "sem_3/notes/mae/mid terms rev/m1 theory rev.pdf",
           "size": 200776,
           "size_human": "196.1K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "Lecture-1-2-Introduction-Classification-Tabulation.pdf",
@@ -320,7 +320,7 @@
           "path": "sem_3/notes/mu/Lecture-1-2-Introduction-Classification-Tabulation.pdf",
           "size": 246210,
           "size_human": "240.4K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "Lecture-3-4-Central Tendency.pdf",
@@ -328,7 +328,7 @@
           "path": "sem_3/notes/mu/Lecture-3-4-Central Tendency.pdf",
           "size": 519366,
           "size_human": "507.2K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "Managing_Uncertainty_Formula_Guide.pdf",
@@ -336,7 +336,7 @@
           "path": "sem_3/notes/mu/Managing_Uncertainty_Formula_Guide.pdf",
           "size": 286792,
           "size_human": "280.1K",
-          "modified": "2026-11-02T21:55:15+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "Managing_Uncertainty_Solutions (1).pdf",
@@ -344,7 +344,7 @@
           "path": "sem_3/notes/mu/Managing_Uncertainty_Solutions (1).pdf",
           "size": 9705976,
           "size_human": "9.3M",
-          "modified": "2026-11-01T19:14:17+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "Unit 4.pdf",
@@ -352,7 +352,7 @@
           "path": "sem_3/notes/mu/Unit 4.pdf",
           "size": 392905,
           "size_human": "383.7K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "unit7.pdf",
@@ -360,7 +360,7 @@
           "path": "sem_3/notes/mu/unit7.pdf",
           "size": 573874,
           "size_human": "560.4K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "Unit_3_Statistics_Exam_Guide.pdf",
@@ -368,7 +368,7 @@
           "path": "sem_3/notes/mu/Unit_3_Statistics_Exam_Guide.pdf",
           "size": 712352,
           "size_human": "695.7K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "m1 rev.pdf",
@@ -376,7 +376,7 @@
           "path": "sem_3/notes/mu/mid terms/m1 rev.pdf",
           "size": 208281,
           "size_human": "203.4K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "m1 sample ques.pdf",
@@ -384,7 +384,7 @@
           "path": "sem_3/notes/mu/mid terms/m1 sample ques.pdf",
           "size": 503488,
           "size_human": "491.7K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "m2.pdf",
@@ -392,7 +392,7 @@
           "path": "sem_3/notes/mu/mid terms/m2.pdf",
           "size": 512175,
           "size_human": "500.2K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "oop_Lec 1_and_Lec2.pdf",
@@ -400,7 +400,7 @@
           "path": "sem_3/notes/oop/oop_Lec 1_and_Lec2.pdf",
           "size": 361864,
           "size_human": "353.4K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "oop_Lec 3_4_5.pdf",
@@ -408,7 +408,7 @@
           "path": "sem_3/notes/oop/oop_Lec 3_4_5.pdf",
           "size": 473670,
           "size_human": "462.6K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "oop_Lec 6.pdf",
@@ -416,7 +416,7 @@
           "path": "sem_3/notes/oop/oop_Lec 6.pdf",
           "size": 334920,
           "size_human": "327.1K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "Renewable_PYQ_Formula_Sheet.pdf",
@@ -424,7 +424,7 @@
           "path": "sem_3/notes/re/Renewable_PYQ_Formula_Sheet.pdf",
           "size": 192538,
           "size_human": "188.0K",
-          "modified": "2026-11-05T17:51:53+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "Renewable_Theory_Recall_Guide.pdf",
@@ -432,7 +432,7 @@
           "path": "sem_3/notes/re/Renewable_Theory_Recall_Guide.pdf",
           "size": 379543,
           "size_human": "370.6K",
-          "modified": "2026-11-05T19:04:52+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "re_ M1 REV NOTES.pdf",
@@ -440,7 +440,7 @@
           "path": "sem_3/notes/re/mid terms/re_ M1 REV NOTES.pdf",
           "size": 255095,
           "size_human": "249.1K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         }
       ],
       "pyqs": [
@@ -450,7 +450,7 @@
           "path": "sem_3/pyqs/dm/Dicrete_Mathematics_RNbOiCuabL.pdf",
           "size": 2003660,
           "size_human": "1.9M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "Discrete_Mathematics_2022-23_Final_exam_9RXdNGZ10V.pdf",
@@ -458,7 +458,7 @@
           "path": "sem_3/pyqs/dm/Discrete_Mathematics_2022-23_Final_exam_9RXdNGZ10V.pdf",
           "size": 2071042,
           "size_human": "2.0M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "Discrete_Mathematics___Final___Re-exam_2022-23_8f1jbzGDbF.pdf",
@@ -466,7 +466,7 @@
           "path": "sem_3/pyqs/dm/Discrete_Mathematics___Final___Re-exam_2022-23_8f1jbzGDbF.pdf",
           "size": 1747277,
           "size_human": "1.7M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "Discrete_Mathematics___Re-exam_2021-22_2022-23_NKRmVpFOCY.pdf",
@@ -474,7 +474,7 @@
           "path": "sem_3/pyqs/dm/Discrete_Mathematics___Re-exam_2021-22_2022-23_NKRmVpFOCY.pdf",
           "size": 1841164,
           "size_human": "1.8M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "Discrete_Mathematics__Re-exam_2022-23_u6WEQbmeHu.pdf",
@@ -482,7 +482,7 @@
           "path": "sem_3/pyqs/dm/Discrete_Mathematics__Re-exam_2022-23_u6WEQbmeHu.pdf",
           "size": 2308035,
           "size_human": "2.2M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "Discrete_mathematics_Final_exam_2019-20_.pdf",
@@ -490,7 +490,7 @@
           "path": "sem_3/pyqs/dm/Discrete_mathematics_Final_exam_2019-20_.pdf",
           "size": 1611050,
           "size_human": "1.5M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:52+05:30"
         },
         {
           "name": "solutions.pdf",
@@ -498,7 +498,7 @@
           "path": "sem_3/pyqs/dm/solutions.pdf",
           "size": 17076696,
           "size_human": "16.3M",
-          "modified": "2026-11-04T01:27:22+05:30"
+          "modified": "2026-11-10T22:23:53+05:30"
         },
         {
           "name": "Data_Structure_and_Algorithms___Final_2023-2024_RGKfwXuX6e (1).pdf",
@@ -506,7 +506,7 @@
           "path": "sem_3/pyqs/dsa/Data_Structure_and_Algorithms___Final_2023-2024_RGKfwXuX6e (1).pdf",
           "size": 2134732,
           "size_human": "2.0M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:53+05:30"
         },
         {
           "name": "Data_Structure_and_Algorithms___Final_2023-2024_RGKfwXuX6e.pdf",
@@ -514,7 +514,7 @@
           "path": "sem_3/pyqs/dsa/Data_Structure_and_Algorithms___Final_2023-2024_RGKfwXuX6e.pdf",
           "size": 2134732,
           "size_human": "2.0M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:53+05:30"
         },
         {
           "name": "Data_Structure_and_Algorithms__Re-exam_2023-24_qajchyHM1p.pdf",
@@ -522,7 +522,7 @@
           "path": "sem_3/pyqs/dsa/Data_Structure_and_Algorithms__Re-exam_2023-24_qajchyHM1p.pdf",
           "size": 1871765,
           "size_human": "1.8M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:53+05:30"
         },
         {
           "name": "Data_Structures_and_Algorithms_fzSe3HYo8k.pdf",
@@ -530,7 +530,23 @@
           "path": "sem_3/pyqs/dsa/Data_Structures_and_Algorithms_fzSe3HYo8k.pdf",
           "size": 1278055,
           "size_human": "1.2M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:53+05:30"
+        },
+        {
+          "name": "DSA_Expected.pdf",
+          "folder": "dsa",
+          "path": "sem_3/pyqs/dsa/DSA_Expected.pdf",
+          "size": 37768,
+          "size_human": "36.9K",
+          "modified": "2026-11-10T20:14:06+05:30"
+        },
+        {
+          "name": "DSA_One_Night_Study_Guide.pdf",
+          "folder": "dsa",
+          "path": "sem_3/pyqs/dsa/DSA_One_Night_Study_Guide.pdf",
+          "size": 282137,
+          "size_human": "275.5K",
+          "modified": "2026-11-10T14:03:21+05:30"
         },
         {
           "name": "Management_Accounting_for_Engineer__2nd_Year__Sem_III__Year_2022-23_Final_Exam__2021-22_Re_Exam_wJxtUKiPgb.pdf",
@@ -538,7 +554,7 @@
           "path": "sem_3/pyqs/mae/Management_Accounting_for_Engineer__2nd_Year__Sem_III__Year_2022-23_Final_Exam__2021-22_Re_Exam_wJxtUKiPgb.pdf",
           "size": 2657076,
           "size_human": "2.5M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:53+05:30"
         },
         {
           "name": "Management_Accounting_for_engineers__All_Streams__2nd__Year__Sem-III__Year_2022-23__Re-Exam_JpZvC5qz53.pdf",
@@ -546,7 +562,7 @@
           "path": "sem_3/pyqs/mae/Management_Accounting_for_engineers__All_Streams__2nd__Year__Sem-III__Year_2022-23__Re-Exam_JpZvC5qz53.pdf",
           "size": 2437426,
           "size_human": "2.3M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:53+05:30"
         },
         {
           "name": "Management_Accounting_for_Engineers__Sem-III__Batch_2022-23_Re_Exam_D0nPepHtk1.pdf",
@@ -554,7 +570,7 @@
           "path": "sem_3/pyqs/mae/Management_Accounting_for_Engineers__Sem-III__Batch_2022-23_Re_Exam_D0nPepHtk1.pdf",
           "size": 1902820,
           "size_human": "1.8M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:53+05:30"
         },
         {
           "name": "Managing_Uncertainty_2022-23___Final_GGB9VPY3a7.pdf",
@@ -562,7 +578,7 @@
           "path": "sem_3/pyqs/mu/Managing_Uncertainty_2022-23___Final_GGB9VPY3a7.pdf",
           "size": 3365175,
           "size_human": "3.2M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:53+05:30"
         },
         {
           "name": "Managing_Uncertainty_2025-26_Final_xWtQQHWW7F.pdf",
@@ -570,7 +586,7 @@
           "path": "sem_3/pyqs/mu/Managing_Uncertainty_2025-26_Final_xWtQQHWW7F.pdf",
           "size": 2732959,
           "size_human": "2.6M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:53+05:30"
         },
         {
           "name": "Managing_Uncertainty___Final__Re-exam_2022-23_CnPzWPv5Aw.pdf",
@@ -578,7 +594,7 @@
           "path": "sem_3/pyqs/mu/Managing_Uncertainty___Final__Re-exam_2022-23_CnPzWPv5Aw.pdf",
           "size": 2643220,
           "size_human": "2.5M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:53+05:30"
         },
         {
           "name": "Managing_Uncertainty___Re-exam_(_2024-25)_(_2022-23_2023-24)_kloI34FiYa.PDF",
@@ -586,7 +602,7 @@
           "path": "sem_3/pyqs/mu/Managing_Uncertainty___Re-exam_(_2024-25)_(_2022-23_2023-24)_kloI34FiYa.PDF",
           "size": 4252718,
           "size_human": "4.1M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:53+05:30"
         },
         {
           "name": "Managing_Uncertainty___Re-exam_2022-23_LD1iyiVsPU.pdf",
@@ -594,7 +610,7 @@
           "path": "sem_3/pyqs/mu/Managing_Uncertainty___Re-exam_2022-23_LD1iyiVsPU.pdf",
           "size": 2693353,
           "size_human": "2.6M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:53+05:30"
         },
         {
           "name": "Managing_Uncertainty_Batch_2024-25_Final_Batch_2022-23_2023-24_Re_Exam_2HDhT9krDq.pdf",
@@ -602,7 +618,7 @@
           "path": "sem_3/pyqs/mu/Managing_Uncertainty_Batch_2024-25_Final_Batch_2022-23_2023-24_Re_Exam_2HDhT9krDq.pdf",
           "size": 2899386,
           "size_human": "2.8M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:53+05:30"
         },
         {
           "name": "Managing_Uncertainty_DmYBLzOFv0.pdf",
@@ -610,7 +626,7 @@
           "path": "sem_3/pyqs/mu/Managing_Uncertainty_DmYBLzOFv0.pdf",
           "size": 3146285,
           "size_human": "3.0M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:53+05:30"
         },
         {
           "name": "Managing_Uncertainty_mSBF5Fjshq (1).pdf",
@@ -618,7 +634,7 @@
           "path": "sem_3/pyqs/mu/Managing_Uncertainty_mSBF5Fjshq (1).pdf",
           "size": 2732959,
           "size_human": "2.6M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:53+05:30"
         },
         {
           "name": "TEE_Managing_Uncertainty_Solutions.pdf",
@@ -626,7 +642,7 @@
           "path": "sem_3/pyqs/mu/TEE_Managing_Uncertainty_Solutions.pdf",
           "size": 9702445,
           "size_human": "9.3M",
-          "modified": "2026-11-01T12:19:31+05:30"
+          "modified": "2026-11-10T22:23:53+05:30"
         },
         {
           "name": "OBJECT_ORIENTED_PROGRAMMING_B_TECH_(COMPUTER)___2019-20_FINAL_EXAM_qO8uYMTY15.pdf",
@@ -634,7 +650,7 @@
           "path": "sem_3/pyqs/oop/OBJECT_ORIENTED_PROGRAMMING_B_TECH_(COMPUTER)___2019-20_FINAL_EXAM_qO8uYMTY15.pdf",
           "size": 972984,
           "size_human": "950.2K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-10T22:23:53+05:30"
         },
         {
           "name": "Renewable_PYQ.pdf",
@@ -642,7 +658,7 @@
           "path": "sem_3/pyqs/res/Renewable_PYQ.pdf",
           "size": 9490838,
           "size_human": "9.1M",
-          "modified": "2026-11-05T19:05:46+05:30"
+          "modified": "2026-11-10T22:23:53+05:30"
         },
         {
           "name": "RES PYQ Numerical Solutions.pdf",
@@ -650,7 +666,7 @@
           "path": "sem_3/pyqs/res/RES PYQ Numerical Solutions.pdf",
           "size": 268736,
           "size_human": "262.4K",
-          "modified": "2026-11-05T19:06:24+05:30"
+          "modified": "2026-11-10T22:23:53+05:30"
         }
       ]
     }
