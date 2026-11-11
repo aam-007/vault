@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-11T16:56:25+05:30",
+  "generated_at": "2026-11-11T16:58:00+05:30",
   "recent_file": {
-    "path": "sem_3/pyqs/dsa/DSA_One_Night_Study_Guide.pdf",
-    "name": "DSA_One_Night_Study_Guide.pdf",
-    "modified": "2026-11-11T16:56:21+05:30"
+    "path": "sem_3/pyqs/oop/Object_Oriented_Programming__Sem-III__Year_2022-23__Special_Re_Exam_PcMsJjvsMK.pdf",
+    "name": "Object_Oriented_Programming__Sem-III__Year_2022-23__Special_Re_Exam_PcMsJjvsMK.pdf",
+    "modified": "2026-11-11T16:53:52+05:30"
   },
   "tree": {
     "sem_3": {
@@ -445,260 +445,492 @@
       ],
       "pyqs": [
         {
-          "name": "Dicrete_Mathematics_RNbOiCuabL.pdf",
-          "folder": "dm",
-          "path": "sem_3/pyqs/dm/Dicrete_Mathematics_RNbOiCuabL.pdf",
+          "name": "Dicrete_Mathematics_2025-26_Final_cdNRL8ZpJI.pdf",
+          "folder": "DM",
+          "path": "sem_3/pyqs/DM/Dicrete_Mathematics_2025-26_Final_cdNRL8ZpJI.pdf",
           "size": 2003660,
           "size_human": "1.9M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-11T16:53:50+05:30"
         },
         {
-          "name": "Discrete_Mathematics_2022-23_Final_exam_9RXdNGZ10V.pdf",
-          "folder": "dm",
-          "path": "sem_3/pyqs/dm/Discrete_Mathematics_2022-23_Final_exam_9RXdNGZ10V.pdf",
-          "size": 2071042,
-          "size_human": "2.0M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "name": "Dicrete_Mathematics_2025-26_Final_gDVDhWfvEg.pdf",
+          "folder": "DM",
+          "path": "sem_3/pyqs/DM/Dicrete_Mathematics_2025-26_Final_gDVDhWfvEg.pdf",
+          "size": 2003660,
+          "size_human": "1.9M",
+          "modified": "2026-11-11T16:53:50+05:30"
         },
         {
-          "name": "Discrete_Mathematics___Final___Re-exam_2022-23_8f1jbzGDbF.pdf",
-          "folder": "dm",
-          "path": "sem_3/pyqs/dm/Discrete_Mathematics___Final___Re-exam_2022-23_8f1jbzGDbF.pdf",
-          "size": 1747277,
-          "size_human": "1.7M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "name": "Dicrete_Mathematics_2025-26_Final_uXFlpaZGuP.pdf",
+          "folder": "DM",
+          "path": "sem_3/pyqs/DM/Dicrete_Mathematics_2025-26_Final_uXFlpaZGuP.pdf",
+          "size": 2003660,
+          "size_human": "1.9M",
+          "modified": "2026-11-11T16:53:50+05:30"
         },
         {
-          "name": "Discrete_Mathematics___Re-exam_2021-22_2022-23_NKRmVpFOCY.pdf",
-          "folder": "dm",
-          "path": "sem_3/pyqs/dm/Discrete_Mathematics___Re-exam_2021-22_2022-23_NKRmVpFOCY.pdf",
-          "size": 1841164,
-          "size_human": "1.8M",
-          "modified": "2026-11-01T12:19:06+05:30"
-        },
-        {
-          "name": "Discrete_Mathematics__Re-exam_2022-23_u6WEQbmeHu.pdf",
-          "folder": "dm",
-          "path": "sem_3/pyqs/dm/Discrete_Mathematics__Re-exam_2022-23_u6WEQbmeHu.pdf",
+          "name": "Discrete_Mathematics__2nd_Year__Sem-III__Year_2022-23__Re_Exam_rnIQt2y7nq.pdf",
+          "folder": "DM",
+          "path": "sem_3/pyqs/DM/Discrete_Mathematics__2nd_Year__Sem-III__Year_2022-23__Re_Exam_rnIQt2y7nq.pdf",
           "size": 2308035,
           "size_human": "2.2M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-11T16:53:50+05:30"
         },
         {
-          "name": "Discrete_mathematics_Final_exam_2019-20_.pdf",
-          "folder": "dm",
-          "path": "sem_3/pyqs/dm/Discrete_mathematics_Final_exam_2019-20_.pdf",
+          "name": "Discrete_Mathematics__2nd_Year__Sem_III__Year_2022-23__Final_Exam_Lzc93LOAqT.pdf",
+          "folder": "DM",
+          "path": "sem_3/pyqs/DM/Discrete_Mathematics__2nd_Year__Sem_III__Year_2022-23__Final_Exam_Lzc93LOAqT.pdf",
+          "size": 2071042,
+          "size_human": "2.0M",
+          "modified": "2026-11-11T16:53:50+05:30"
+        },
+        {
+          "name": "Discrete_Mathematics___Final___Re-exam_2022-230001_QGm9TCR5R6.pdf",
+          "folder": "DM",
+          "path": "sem_3/pyqs/DM/Discrete_Mathematics___Final___Re-exam_2022-230001_QGm9TCR5R6.pdf",
+          "size": 1747277,
+          "size_human": "1.7M",
+          "modified": "2026-11-11T16:53:50+05:30"
+        },
+        {
+          "name": "Discrete_Mathematics___Re-exam_2021-22_2022-23_6SDEgCtiQe.pdf",
+          "folder": "DM",
+          "path": "sem_3/pyqs/DM/Discrete_Mathematics___Re-exam_2021-22_2022-23_6SDEgCtiQe.pdf",
+          "size": 1841164,
+          "size_human": "1.8M",
+          "modified": "2026-11-11T16:53:50+05:30"
+        },
+        {
+          "name": "Discrete_Mathematics__Sem-III__Final_Exam_2024-25_and_Re_Exam_2022-23__2023-24_9zkGbZ7Z0H.pdf",
+          "folder": "DM",
+          "path": "sem_3/pyqs/DM/Discrete_Mathematics__Sem-III__Final_Exam_2024-25_and_Re_Exam_2022-23__2023-24_9zkGbZ7Z0H.pdf",
+          "size": 2011429,
+          "size_human": "1.9M",
+          "modified": "2026-11-11T16:53:50+05:30"
+        },
+        {
+          "name": "Discrete_Mathematics__Sem-III__Final_Exam_2024-25_and_Re_Exam_2022-23__2023-24__tZa3Zvo2xi.pdf",
+          "folder": "DM",
+          "path": "sem_3/pyqs/DM/Discrete_Mathematics__Sem-III__Final_Exam_2024-25_and_Re_Exam_2022-23__2023-24__tZa3Zvo2xi.pdf",
+          "size": 2011429,
+          "size_human": "1.9M",
+          "modified": "2026-11-11T16:53:50+05:30"
+        },
+        {
+          "name": "Discrete_Mathematics__Sem-III__Final_Exam_2024-25_and_Re_Exam_2022-23__2023-24_Kyi9WYydhm.pdf",
+          "folder": "DM",
+          "path": "sem_3/pyqs/DM/Discrete_Mathematics__Sem-III__Final_Exam_2024-25_and_Re_Exam_2022-23__2023-24_Kyi9WYydhm.pdf",
+          "size": 2011429,
+          "size_human": "1.9M",
+          "modified": "2026-11-11T16:53:50+05:30"
+        },
+        {
+          "name": "Discrete_Mathematics__Sem-III__Final_Exam_2024-25_and_Re_Exam_2022-23__2023-24_ZNG4lCppPT.pdf",
+          "folder": "DM",
+          "path": "sem_3/pyqs/DM/Discrete_Mathematics__Sem-III__Final_Exam_2024-25_and_Re_Exam_2022-23__2023-24_ZNG4lCppPT.pdf",
+          "size": 2011429,
+          "size_human": "1.9M",
+          "modified": "2026-11-11T16:53:50+05:30"
+        },
+        {
+          "name": "Discrete_Mathematics__Sem-III__Year_2022-23__Special_Re_Exam_6ZT0NCojlI.pdf",
+          "folder": "DM",
+          "path": "sem_3/pyqs/DM/Discrete_Mathematics__Sem-III__Year_2022-23__Special_Re_Exam_6ZT0NCojlI.pdf",
+          "size": 1762298,
+          "size_human": "1.7M",
+          "modified": "2026-11-11T16:53:50+05:30"
+        },
+        {
+          "name": "DISCRETE_MATHEMATICS_B_TECH_(COMPUTER)__2019-20_FINAL_EXAM_MVESl0RfFj.pdf",
+          "folder": "DM",
+          "path": "sem_3/pyqs/DM/DISCRETE_MATHEMATICS_B_TECH_(COMPUTER)__2019-20_FINAL_EXAM_MVESl0RfFj.pdf",
           "size": 1611050,
           "size_human": "1.5M",
-          "modified": "2026-11-01T12:19:06+05:30"
-        },
-        {
-          "name": "solutions.pdf",
-          "folder": "dm",
-          "path": "sem_3/pyqs/dm/solutions.pdf",
-          "size": 17076696,
-          "size_human": "16.3M",
-          "modified": "2026-11-04T01:27:22+05:30"
+          "modified": "2026-11-11T16:53:50+05:30"
         },
         {
           "name": "Data_Structure_and_Algorithms___Final_2023-2024_RGKfwXuX6e (1).pdf",
-          "folder": "dsa",
-          "path": "sem_3/pyqs/dsa/Data_Structure_and_Algorithms___Final_2023-2024_RGKfwXuX6e (1).pdf",
+          "folder": "DSA_TH",
+          "path": "sem_3/pyqs/DSA_TH/Data_Structure_and_Algorithms___Final_2023-2024_RGKfwXuX6e (1).pdf",
           "size": 2134732,
           "size_human": "2.0M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-11T16:53:51+05:30"
         },
         {
-          "name": "Data_Structure_and_Algorithms___Final_2023-2024_RGKfwXuX6e.pdf",
-          "folder": "dsa",
-          "path": "sem_3/pyqs/dsa/Data_Structure_and_Algorithms___Final_2023-2024_RGKfwXuX6e.pdf",
-          "size": 2134732,
-          "size_human": "2.0M",
-          "modified": "2026-11-01T12:19:06+05:30"
-        },
-        {
-          "name": "Data_Structure_and_Algorithms__Re-exam_2023-24_qajchyHM1p.pdf",
-          "folder": "dsa",
-          "path": "sem_3/pyqs/dsa/Data_Structure_and_Algorithms__Re-exam_2023-24_qajchyHM1p.pdf",
+          "name": "Data_Structure_and_Algorithms__Re-exam_2023-24_qajchyHM1p (1).pdf",
+          "folder": "DSA_TH",
+          "path": "sem_3/pyqs/DSA_TH/Data_Structure_and_Algorithms__Re-exam_2023-24_qajchyHM1p (1).pdf",
           "size": 1871765,
           "size_human": "1.8M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-11T16:53:51+05:30"
         },
         {
-          "name": "Data_Structures_and_Algorithms_fzSe3HYo8k.pdf",
-          "folder": "dsa",
-          "path": "sem_3/pyqs/dsa/Data_Structures_and_Algorithms_fzSe3HYo8k.pdf",
+          "name": "Data_Structures_and_Algorithims__Sem-II__Batch_2021-22__Re_Exam_cRqMo9bXbd.pdf",
+          "folder": "DSA_TH",
+          "path": "sem_3/pyqs/DSA_TH/Data_Structures_and_Algorithims__Sem-II__Batch_2021-22__Re_Exam_cRqMo9bXbd.pdf",
+          "size": 1250808,
+          "size_human": "1.2M",
+          "modified": "2026-11-11T16:53:50+05:30"
+        },
+        {
+          "name": "Data_Structures_and_Algorithm__Sem-II__Final_Exam_2021-22__and_Re_Exam_Batch_2020-21_Za2kjcwQ3a.pdf",
+          "folder": "DSA_TH",
+          "path": "sem_3/pyqs/DSA_TH/Data_Structures_and_Algorithm__Sem-II__Final_Exam_2021-22__and_Re_Exam_Batch_2020-21_Za2kjcwQ3a.pdf",
+          "size": 1408082,
+          "size_human": "1.3M",
+          "modified": "2026-11-11T16:53:51+05:30"
+        },
+        {
+          "name": "Data_Structures_and_Algorithms__Sem-II__Batch_2020-21__2021-22__Re_Exam_3IAQHHE3ay.pdf",
+          "folder": "DSA_TH",
+          "path": "sem_3/pyqs/DSA_TH/Data_Structures_and_Algorithms__Sem-II__Batch_2020-21__2021-22__Re_Exam_3IAQHHE3ay.pdf",
+          "size": 982751,
+          "size_human": "959.7K",
+          "modified": "2026-11-11T16:53:50+05:30"
+        },
+        {
+          "name": "Data_Structures_and_Algorithms__Sem-II__Final_Exam__A.Y._2021-22_pPmUyDrgyW.pdf",
+          "folder": "DSA_TH",
+          "path": "sem_3/pyqs/DSA_TH/Data_Structures_and_Algorithms__Sem-II__Final_Exam__A.Y._2021-22_pPmUyDrgyW.pdf",
+          "size": 1576315,
+          "size_human": "1.5M",
+          "modified": "2026-11-11T16:53:50+05:30"
+        },
+        {
+          "name": "Data_Structures_and_Algorithms__Sem-II__Re-Exam__Batch_2020-21_and_2021-22_INpqtxJw77.pdf",
+          "folder": "DSA_TH",
+          "path": "sem_3/pyqs/DSA_TH/Data_Structures_and_Algorithms__Sem-II__Re-Exam__Batch_2020-21_and_2021-22_INpqtxJw77.pdf",
+          "size": 1564367,
+          "size_human": "1.5M",
+          "modified": "2026-11-11T16:53:50+05:30"
+        },
+        {
+          "name": "Data_Structures_and_Algorithms__Sem-II__Re-Exam__Batch_2020-21_and_2021-22_suUzO4hPiG.pdf",
+          "folder": "DSA_TH",
+          "path": "sem_3/pyqs/DSA_TH/Data_Structures_and_Algorithms__Sem-II__Re-Exam__Batch_2020-21_and_2021-22_suUzO4hPiG.pdf",
+          "size": 1564367,
+          "size_human": "1.5M",
+          "modified": "2026-11-11T16:53:50+05:30"
+        },
+        {
+          "name": "Data_Structures_and_Algorithms__Sem-II__Re-Exam__Year_2021-22_ThInJ3JV0x.pdf",
+          "folder": "DSA_TH",
+          "path": "sem_3/pyqs/DSA_TH/Data_Structures_and_Algorithms__Sem-II__Re-Exam__Year_2021-22_ThInJ3JV0x.pdf",
+          "size": 1848082,
+          "size_human": "1.8M",
+          "modified": "2026-11-11T16:53:51+05:30"
+        },
+        {
+          "name": "Data_Structures_and_Algorithms__Sem-II__Re_Exam_2022-23_LOJxYlV41l.pdf",
+          "folder": "DSA_TH",
+          "path": "sem_3/pyqs/DSA_TH/Data_Structures_and_Algorithms__Sem-II__Re_Exam_2022-23_LOJxYlV41l.pdf",
+          "size": 973162,
+          "size_human": "950.4K",
+          "modified": "2026-11-11T16:53:51+05:30"
+        },
+        {
+          "name": "Data_Structures_and_Algorithms__Sem-II__Re_Exam__Batch_2021-22__A_Y_2023-24_DA9qyoJ6mV.pdf",
+          "folder": "DSA_TH",
+          "path": "sem_3/pyqs/DSA_TH/Data_Structures_and_Algorithms__Sem-II__Re_Exam__Batch_2021-22__A_Y_2023-24_DA9qyoJ6mV.pdf",
+          "size": 1079352,
+          "size_human": "1.0M",
+          "modified": "2026-11-11T16:53:51+05:30"
+        },
+        {
+          "name": "Data_Structures_and_Algorithms__Sem-II__Year_2022-23__Final_Exam_O6b48rzxs3.pdf",
+          "folder": "DSA_TH",
+          "path": "sem_3/pyqs/DSA_TH/Data_Structures_and_Algorithms__Sem-II__Year_2022-23__Final_Exam_O6b48rzxs3.pdf",
+          "size": 1107002,
+          "size_human": "1.1M",
+          "modified": "2026-11-11T16:53:51+05:30"
+        },
+        {
+          "name": "Data_Structures_and_Algorithms__Sem-II__Year__2022-23__Re_Exam_upmOhMOFlJ.pdf",
+          "folder": "DSA_TH",
+          "path": "sem_3/pyqs/DSA_TH/Data_Structures_and_Algorithms__Sem-II__Year__2022-23__Re_Exam_upmOhMOFlJ.pdf",
+          "size": 1027943,
+          "size_human": "1003.9K",
+          "modified": "2026-11-11T16:53:51+05:30"
+        },
+        {
+          "name": "Data_Structures_and_Algorithms_fzSe3HYo8k (1).pdf",
+          "folder": "DSA_TH",
+          "path": "sem_3/pyqs/DSA_TH/Data_Structures_and_Algorithms_fzSe3HYo8k (1).pdf",
           "size": 1278055,
           "size_human": "1.2M",
-          "modified": "2026-11-01T12:19:06+05:30"
-        },
-        {
-          "name": "DSA_Expected.pdf",
-          "folder": "dsa",
-          "path": "sem_3/pyqs/dsa/DSA_Expected.pdf",
-          "size": 37768,
-          "size_human": "36.9K",
-          "modified": "2026-11-11T16:56:21+05:30"
-        },
-        {
-          "name": "DSA_One_Night_Study_Guide.pdf",
-          "folder": "dsa",
-          "path": "sem_3/pyqs/dsa/DSA_One_Night_Study_Guide.pdf",
-          "size": 282137,
-          "size_human": "275.5K",
-          "modified": "2026-11-11T16:56:21+05:30"
+          "modified": "2026-11-11T16:53:50+05:30"
         },
         {
           "name": "Introduction_to_Data__Signal_and_Image_Analysis___Final_2024-25__Re-exam_2023-24_9LH2zgGHtk.pdf",
-          "folder": "idsa",
-          "path": "sem_3/pyqs/idsa/Introduction_to_Data__Signal_and_Image_Analysis___Final_2024-25__Re-exam_2023-24_9LH2zgGHtk.pdf",
+          "folder": "IDSA",
+          "path": "sem_3/pyqs/IDSA/Introduction_to_Data__Signal_and_Image_Analysis___Final_2024-25__Re-exam_2023-24_9LH2zgGHtk.pdf",
           "size": 1652432,
           "size_human": "1.6M",
           "modified": "2026-11-11T16:53:51+05:30"
         },
         {
           "name": "Introduction_to_Data__Signal_and_Image_Analysis__Final_2024-25_Re-exam_2023-24_hjefbJyMc1.pdf",
-          "folder": "idsa",
-          "path": "sem_3/pyqs/idsa/Introduction_to_Data__Signal_and_Image_Analysis__Final_2024-25_Re-exam_2023-24_hjefbJyMc1.pdf",
+          "folder": "IDSA",
+          "path": "sem_3/pyqs/IDSA/Introduction_to_Data__Signal_and_Image_Analysis__Final_2024-25_Re-exam_2023-24_hjefbJyMc1.pdf",
           "size": 90210,
           "size_human": "88.1K",
           "modified": "2026-11-11T16:53:51+05:30"
         },
         {
           "name": "Introduction_to_Data__Signal_and_Image_Analysis_Batch_2025-26_Re_Exam_pM2lYxBal1.pdf",
-          "folder": "idsa",
-          "path": "sem_3/pyqs/idsa/Introduction_to_Data__Signal_and_Image_Analysis_Batch_2025-26_Re_Exam_pM2lYxBal1.pdf",
+          "folder": "IDSA",
+          "path": "sem_3/pyqs/IDSA/Introduction_to_Data__Signal_and_Image_Analysis_Batch_2025-26_Re_Exam_pM2lYxBal1.pdf",
           "size": 1198610,
           "size_human": "1.1M",
           "modified": "2026-11-11T16:53:51+05:30"
         },
         {
           "name": "Introduction_to_Data__Signal_and_Image_Analysis_Re-exam_2022-23_CB8l8KBcdz (1).pdf",
-          "folder": "idsa",
-          "path": "sem_3/pyqs/idsa/Introduction_to_Data__Signal_and_Image_Analysis_Re-exam_2022-23_CB8l8KBcdz (1).pdf",
+          "folder": "IDSA",
+          "path": "sem_3/pyqs/IDSA/Introduction_to_Data__Signal_and_Image_Analysis_Re-exam_2022-23_CB8l8KBcdz (1).pdf",
           "size": 1295975,
           "size_human": "1.2M",
           "modified": "2026-11-11T16:53:51+05:30"
         },
         {
           "name": "Introduction_to_Data__Signal_and_Image_Analysis_Re-exam_2022-23_CB8l8KBcdz.pdf",
-          "folder": "idsa",
-          "path": "sem_3/pyqs/idsa/Introduction_to_Data__Signal_and_Image_Analysis_Re-exam_2022-23_CB8l8KBcdz.pdf",
+          "folder": "IDSA",
+          "path": "sem_3/pyqs/IDSA/Introduction_to_Data__Signal_and_Image_Analysis_Re-exam_2022-23_CB8l8KBcdz.pdf",
           "size": 1295975,
           "size_human": "1.2M",
           "modified": "2026-11-11T16:53:51+05:30"
         },
         {
           "name": "Introduction_to_Data__Signal_and_Image_analysis_SPFIyNvrl2.pdf",
-          "folder": "idsa",
-          "path": "sem_3/pyqs/idsa/Introduction_to_Data__Signal_and_Image_analysis_SPFIyNvrl2.pdf",
+          "folder": "IDSA",
+          "path": "sem_3/pyqs/IDSA/Introduction_to_Data__Signal_and_Image_analysis_SPFIyNvrl2.pdf",
           "size": 1204928,
           "size_human": "1.1M",
           "modified": "2026-11-11T16:53:51+05:30"
         },
         {
           "name": "Introduction_to_Data_Signal_and_Image_analysis_CF5SRPnHqR.pdf",
-          "folder": "idsa",
-          "path": "sem_3/pyqs/idsa/Introduction_to_Data_Signal_and_Image_analysis_CF5SRPnHqR.pdf",
+          "folder": "IDSA",
+          "path": "sem_3/pyqs/IDSA/Introduction_to_Data_Signal_and_Image_analysis_CF5SRPnHqR.pdf",
           "size": 1228067,
           "size_human": "1.2M",
           "modified": "2026-11-11T16:53:51+05:30"
         },
         {
-          "name": "Management_Accounting_for_Engineer__2nd_Year__Sem_III__Year_2022-23_Final_Exam__2021-22_Re_Exam_wJxtUKiPgb.pdf",
-          "folder": "mae",
-          "path": "sem_3/pyqs/mae/Management_Accounting_for_Engineer__2nd_Year__Sem_III__Year_2022-23_Final_Exam__2021-22_Re_Exam_wJxtUKiPgb.pdf",
-          "size": 2657076,
+          "name": "Management_Accounting_for_Engineers_2025-26_Final_Q90XpNX5s9.pdf",
+          "folder": "MAE",
+          "path": "sem_3/pyqs/MAE/Management_Accounting_for_Engineers_2025-26_Final_Q90XpNX5s9.pdf",
+          "size": 1747451,
+          "size_human": "1.7M",
+          "modified": "2026-11-11T16:53:51+05:30"
+        },
+        {
+          "name": "Management_Accounting_for_Engineers___Final__Re-exam_2022-23_5eUOyPgjXb.pdf",
+          "folder": "MAE",
+          "path": "sem_3/pyqs/MAE/Management_Accounting_for_Engineers___Final__Re-exam_2022-23_5eUOyPgjXb.pdf",
+          "size": 2652252,
           "size_human": "2.5M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-11T16:53:51+05:30"
         },
         {
-          "name": "Management_Accounting_for_engineers__All_Streams__2nd__Year__Sem-III__Year_2022-23__Re-Exam_JpZvC5qz53.pdf",
-          "folder": "mae",
-          "path": "sem_3/pyqs/mae/Management_Accounting_for_engineers__All_Streams__2nd__Year__Sem-III__Year_2022-23__Re-Exam_JpZvC5qz53.pdf",
-          "size": 2437426,
+          "name": "Management_Accounting_for_Engineers___Final__Re-exam_2024-25_TtcOpnaIjQ.pdf",
+          "folder": "MAE",
+          "path": "sem_3/pyqs/MAE/Management_Accounting_for_Engineers___Final__Re-exam_2024-25_TtcOpnaIjQ.pdf",
+          "size": 2813761,
+          "size_human": "2.7M",
+          "modified": "2026-11-11T16:53:51+05:30"
+        },
+        {
+          "name": "Management_Accounting_for_Engineers___Re-exam_2022-23_2023-24_OE6rZMq5LQ.pdf",
+          "folder": "MAE",
+          "path": "sem_3/pyqs/MAE/Management_Accounting_for_Engineers___Re-exam_2022-23_2023-24_OE6rZMq5LQ.pdf",
+          "size": 3289421,
+          "size_human": "3.1M",
+          "modified": "2026-11-11T16:53:51+05:30"
+        },
+        {
+          "name": "Management_Accounting_for_Engineers__Sem_3_Re-exam_2024-25_62tzJ5Ryyz.pdf",
+          "folder": "MAE",
+          "path": "sem_3/pyqs/MAE/Management_Accounting_for_Engineers__Sem_3_Re-exam_2024-25_62tzJ5Ryyz.pdf",
+          "size": 2910348,
+          "size_human": "2.8M",
+          "modified": "2026-11-11T16:53:51+05:30"
+        },
+        {
+          "name": "Management_Accounting_for_engineers_Bah93UFEfC.pdf",
+          "folder": "MAE",
+          "path": "sem_3/pyqs/MAE/Management_Accounting_for_engineers_Bah93UFEfC.pdf",
+          "size": 180064,
+          "size_human": "175.8K",
+          "modified": "2026-11-11T16:53:51+05:30"
+        },
+        {
+          "name": "Management_Accounting_for_Engineers_Batch_2022-23_2023-24_2024-25_2025-26_Re_Exam_JhXQ2IvC8O.pdf",
+          "folder": "MAE",
+          "path": "sem_3/pyqs/MAE/Management_Accounting_for_Engineers_Batch_2022-23_2023-24_2024-25_2025-26_Re_Exam_JhXQ2IvC8O.pdf",
+          "size": 2626004,
+          "size_human": "2.5M",
+          "modified": "2026-11-11T16:53:51+05:30"
+        },
+        {
+          "name": "Management_Accounting_for_Engineers_Batch_2024-25_Final_XlIp4AHFKf.pdf",
+          "folder": "MAE",
+          "path": "sem_3/pyqs/MAE/Management_Accounting_for_Engineers_Batch_2024-25_Final_XlIp4AHFKf.pdf",
+          "size": 2650310,
+          "size_human": "2.5M",
+          "modified": "2026-11-11T16:53:51+05:30"
+        },
+        {
+          "name": "Management_Accounting_for_Engineers_beqgKeKsdp.pdf",
+          "folder": "MAE",
+          "path": "sem_3/pyqs/MAE/Management_Accounting_for_Engineers_beqgKeKsdp.pdf",
+          "size": 1747451,
+          "size_human": "1.7M",
+          "modified": "2026-11-11T16:53:51+05:30"
+        },
+        {
+          "name": "Management_Accounting_for_Engineers_BeTCVxbB4i.pdf",
+          "folder": "MAE",
+          "path": "sem_3/pyqs/MAE/Management_Accounting_for_Engineers_BeTCVxbB4i.pdf",
+          "size": 2437291,
           "size_human": "2.3M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-11T16:53:51+05:30"
         },
         {
-          "name": "Management_Accounting_for_Engineers__Sem-III__Batch_2022-23_Re_Exam_D0nPepHtk1.pdf",
-          "folder": "mae",
-          "path": "sem_3/pyqs/mae/Management_Accounting_for_Engineers__Sem-III__Batch_2022-23_Re_Exam_D0nPepHtk1.pdf",
-          "size": 1902820,
-          "size_human": "1.8M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "name": "Management_Accounting_for_engineers_J8BeGgc331.pdf",
+          "folder": "MAE",
+          "path": "sem_3/pyqs/MAE/Management_Accounting_for_engineers_J8BeGgc331.pdf",
+          "size": 2010307,
+          "size_human": "1.9M",
+          "modified": "2026-11-11T16:53:51+05:30"
+        },
+        {
+          "name": "Mgmt_Accounting_for_engineers_Final_22-23_Re-exam_21_FVN186STiA.pdf",
+          "folder": "MAE",
+          "path": "sem_3/pyqs/MAE/Mgmt_Accounting_for_engineers_Final_22-23_Re-exam_21_FVN186STiA.pdf",
+          "size": 2555393,
+          "size_human": "2.4M",
+          "modified": "2026-11-11T16:53:51+05:30"
+        },
+        {
+          "name": "MANAGING UNCERTAINTY (ALL STREASM), 2017-18 FINAL EXAM.pdf",
+          "folder": "MU",
+          "path": "sem_3/pyqs/MU/MANAGING UNCERTAINTY (ALL STREASM), 2017-18 FINAL EXAM.pdf",
+          "size": 2632403,
+          "size_human": "2.5M",
+          "modified": "2026-11-11T16:53:51+05:30"
         },
         {
           "name": "Managing_Uncertainty_2022-23___Final_GGB9VPY3a7.pdf",
-          "folder": "mu",
-          "path": "sem_3/pyqs/mu/Managing_Uncertainty_2022-23___Final_GGB9VPY3a7.pdf",
+          "folder": "MU",
+          "path": "sem_3/pyqs/MU/Managing_Uncertainty_2022-23___Final_GGB9VPY3a7.pdf",
           "size": 3365175,
           "size_human": "3.2M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-11T16:53:51+05:30"
         },
         {
           "name": "Managing_Uncertainty_2025-26_Final_xWtQQHWW7F.pdf",
-          "folder": "mu",
-          "path": "sem_3/pyqs/mu/Managing_Uncertainty_2025-26_Final_xWtQQHWW7F.pdf",
+          "folder": "MU",
+          "path": "sem_3/pyqs/MU/Managing_Uncertainty_2025-26_Final_xWtQQHWW7F.pdf",
           "size": 2732959,
           "size_human": "2.6M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-11T16:53:51+05:30"
         },
         {
           "name": "Managing_Uncertainty___Final__Re-exam_2022-23_CnPzWPv5Aw.pdf",
-          "folder": "mu",
-          "path": "sem_3/pyqs/mu/Managing_Uncertainty___Final__Re-exam_2022-23_CnPzWPv5Aw.pdf",
+          "folder": "MU",
+          "path": "sem_3/pyqs/MU/Managing_Uncertainty___Final__Re-exam_2022-23_CnPzWPv5Aw.pdf",
           "size": 2643220,
           "size_human": "2.5M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-11T16:53:52+05:30"
         },
         {
           "name": "Managing_Uncertainty___Re-exam_(_2024-25)_(_2022-23_2023-24)_kloI34FiYa.PDF",
-          "folder": "mu",
-          "path": "sem_3/pyqs/mu/Managing_Uncertainty___Re-exam_(_2024-25)_(_2022-23_2023-24)_kloI34FiYa.PDF",
+          "folder": "MU",
+          "path": "sem_3/pyqs/MU/Managing_Uncertainty___Re-exam_(_2024-25)_(_2022-23_2023-24)_kloI34FiYa.PDF",
           "size": 4252718,
           "size_human": "4.1M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-11T16:53:52+05:30"
         },
         {
           "name": "Managing_Uncertainty___Re-exam_2022-23_LD1iyiVsPU.pdf",
-          "folder": "mu",
-          "path": "sem_3/pyqs/mu/Managing_Uncertainty___Re-exam_2022-23_LD1iyiVsPU.pdf",
+          "folder": "MU",
+          "path": "sem_3/pyqs/MU/Managing_Uncertainty___Re-exam_2022-23_LD1iyiVsPU.pdf",
           "size": 2693353,
           "size_human": "2.6M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-11T16:53:52+05:30"
         },
         {
           "name": "Managing_Uncertainty_Batch_2024-25_Final_Batch_2022-23_2023-24_Re_Exam_2HDhT9krDq.pdf",
-          "folder": "mu",
-          "path": "sem_3/pyqs/mu/Managing_Uncertainty_Batch_2024-25_Final_Batch_2022-23_2023-24_Re_Exam_2HDhT9krDq.pdf",
+          "folder": "MU",
+          "path": "sem_3/pyqs/MU/Managing_Uncertainty_Batch_2024-25_Final_Batch_2022-23_2023-24_Re_Exam_2HDhT9krDq.pdf",
           "size": 2899386,
           "size_human": "2.8M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-11T16:53:51+05:30"
         },
         {
           "name": "Managing_Uncertainty_DmYBLzOFv0.pdf",
-          "folder": "mu",
-          "path": "sem_3/pyqs/mu/Managing_Uncertainty_DmYBLzOFv0.pdf",
+          "folder": "MU",
+          "path": "sem_3/pyqs/MU/Managing_Uncertainty_DmYBLzOFv0.pdf",
           "size": 3146285,
           "size_human": "3.0M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-11T16:53:52+05:30"
         },
         {
-          "name": "Managing_Uncertainty_mSBF5Fjshq (1).pdf",
-          "folder": "mu",
-          "path": "sem_3/pyqs/mu/Managing_Uncertainty_mSBF5Fjshq (1).pdf",
+          "name": "Managing_Uncertainty_mSBF5Fjshq.pdf",
+          "folder": "MU",
+          "path": "sem_3/pyqs/MU/Managing_Uncertainty_mSBF5Fjshq.pdf",
           "size": 2732959,
           "size_human": "2.6M",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-11T16:53:52+05:30"
         },
         {
-          "name": "TEE_Managing_Uncertainty_Solutions.pdf",
-          "folder": "mu",
-          "path": "sem_3/pyqs/mu/TEE_Managing_Uncertainty_Solutions.pdf",
-          "size": 9702445,
-          "size_human": "9.3M",
-          "modified": "2026-11-01T12:19:31+05:30"
+          "name": "Managing_Uncertainty_Re-exam_2022-23_P5EIbaxegg.pdf",
+          "folder": "MU",
+          "path": "sem_3/pyqs/MU/Managing_Uncertainty_Re-exam_2022-23_P5EIbaxegg.pdf",
+          "size": 3426411,
+          "size_human": "3.3M",
+          "modified": "2026-11-11T16:53:52+05:30"
+        },
+        {
+          "name": "Object_Oriented_Programming__2nd_Year__Sem-III__Year_2022-23__Final_Exam_0uDrwPRqQM.pdf",
+          "folder": "oop",
+          "path": "sem_3/pyqs/oop/Object_Oriented_Programming__2nd_Year__Sem-III__Year_2022-23__Final_Exam_0uDrwPRqQM.pdf",
+          "size": 1344506,
+          "size_human": "1.3M",
+          "modified": "2026-11-11T16:53:52+05:30"
+        },
+        {
+          "name": "Object_Oriented_Programming__2nd_Year__Sem-III__Year_2022-23__Re_Exam_rKDZ9bmmL5.pdf",
+          "folder": "oop",
+          "path": "sem_3/pyqs/oop/Object_Oriented_Programming__2nd_Year__Sem-III__Year_2022-23__Re_Exam_rKDZ9bmmL5.pdf",
+          "size": 1467228,
+          "size_human": "1.4M",
+          "modified": "2026-11-11T16:53:52+05:30"
+        },
+        {
+          "name": "Object_Oriented_Programming__Sem-III__Batch_2023-24__Re_Exam_p0qrKQRz0k.pdf",
+          "folder": "oop",
+          "path": "sem_3/pyqs/oop/Object_Oriented_Programming__Sem-III__Batch_2023-24__Re_Exam_p0qrKQRz0k.pdf",
+          "size": 1533070,
+          "size_human": "1.5M",
+          "modified": "2026-11-11T16:53:52+05:30"
+        },
+        {
+          "name": "Object_Oriented_Programming__Sem-III__Final_Exam_2023-24_and_Re_Exam_2022-23_qggOOpUqCd.pdf",
+          "folder": "oop",
+          "path": "sem_3/pyqs/oop/Object_Oriented_Programming__Sem-III__Final_Exam_2023-24_and_Re_Exam_2022-23_qggOOpUqCd.pdf",
+          "size": 1437225,
+          "size_human": "1.4M",
+          "modified": "2026-11-11T16:53:52+05:30"
+        },
+        {
+          "name": "Object_Oriented_Programming__Sem-III__Year_2022-23__Special_Re_Exam_PcMsJjvsMK.pdf",
+          "folder": "oop",
+          "path": "sem_3/pyqs/oop/Object_Oriented_Programming__Sem-III__Year_2022-23__Special_Re_Exam_PcMsJjvsMK.pdf",
+          "size": 1109039,
+          "size_human": "1.1M",
+          "modified": "2026-11-11T16:53:52+05:30"
         },
         {
           "name": "OBJECT_ORIENTED_PROGRAMMING_B_TECH_(COMPUTER)___2019-20_FINAL_EXAM_qO8uYMTY15.pdf",
@@ -706,7 +938,15 @@
           "path": "sem_3/pyqs/oop/OBJECT_ORIENTED_PROGRAMMING_B_TECH_(COMPUTER)___2019-20_FINAL_EXAM_qO8uYMTY15.pdf",
           "size": 972984,
           "size_human": "950.2K",
-          "modified": "2026-11-01T12:19:06+05:30"
+          "modified": "2026-11-11T16:53:52+05:30"
+        },
+        {
+          "name": "Object_oriented_programming_Final_2019-20_.pdf",
+          "folder": "oop",
+          "path": "sem_3/pyqs/oop/Object_oriented_programming_Final_2019-20_.pdf",
+          "size": 972984,
+          "size_human": "950.2K",
+          "modified": "2026-11-11T16:53:52+05:30"
         },
         {
           "name": "Renewable_PYQ.pdf",
