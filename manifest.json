@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-11T16:55:31+05:30",
+  "generated_at": "2026-11-11T16:56:25+05:30",
   "recent_file": {
-    "path": "sem_3/pyqs/idsa/Introduction_to_Data__Signal_and_Image_Analysis___Final_2024-25__Re-exam_2023-24_9LH2zgGHtk.pdf",
-    "name": "Introduction_to_Data__Signal_and_Image_Analysis___Final_2024-25__Re-exam_2023-24_9LH2zgGHtk.pdf",
-    "modified": "2026-11-11T16:53:51+05:30"
+    "path": "sem_3/pyqs/dsa/DSA_One_Night_Study_Guide.pdf",
+    "name": "DSA_One_Night_Study_Guide.pdf",
+    "modified": "2026-11-11T16:56:21+05:30"
   },
   "tree": {
     "sem_3": {
@@ -531,6 +531,22 @@
           "size": 1278055,
           "size_human": "1.2M",
           "modified": "2026-11-01T12:19:06+05:30"
+        },
+        {
+          "name": "DSA_Expected.pdf",
+          "folder": "dsa",
+          "path": "sem_3/pyqs/dsa/DSA_Expected.pdf",
+          "size": 37768,
+          "size_human": "36.9K",
+          "modified": "2026-11-11T16:56:21+05:30"
+        },
+        {
+          "name": "DSA_One_Night_Study_Guide.pdf",
+          "folder": "dsa",
+          "path": "sem_3/pyqs/dsa/DSA_One_Night_Study_Guide.pdf",
+          "size": 282137,
+          "size_human": "275.5K",
+          "modified": "2026-11-11T16:56:21+05:30"
         },
         {
           "name": "Introduction_to_Data__Signal_and_Image_Analysis___Final_2024-25__Re-exam_2023-24_9LH2zgGHtk.pdf",
